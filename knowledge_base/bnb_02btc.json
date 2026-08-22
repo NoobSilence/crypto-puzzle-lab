@@ -15,5 +15,81 @@
   "external_tested": "30M derivations, 10 families",
   "sources": [
     "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/blm-brave-new-world-0-2btc"
+  ],
+  "version": "v4-final-2026-08-22",
+  "core9": [
+    "moon",
+    "tower",
+    "food",
+    "black",
+    "this",
+    "subject",
+    "one",
+    "order",
+    "real"
+  ],
+  "strong": [
+    "liberty",
+    "police",
+    "camera",
+    "mask",
+    "eye",
+    "pyramid",
+    "vote",
+    "rifle",
+    "gold",
+    "glove",
+    "apple"
+  ],
+  "not_bip39": [
+    "breathe",
+    "fist",
+    "free",
+    "needle",
+    "new",
+    "stop",
+    "war",
+    "statue",
+    "justice",
+    "freedom",
+    "tuesday"
+  ],
+  "retracted_anchors": {
+    "tower": 3,
+    "subject": 6,
+    "time": 8,
+    "real": 11,
+    "moon": 13
+  },
+  "retracted_sources": [
+    "Big_Cut7029",
+    "Straight-Solution-39"
+  ],
+  "low_conf_hints": {
+    "this": 1,
+    "black": 5
+  },
+  "passphrases": [
+    "BREATHE",
+    "Guardian",
+    "arizona",
+    "157XIN",
+    "tuesday",
+    ""
+  ],
+  "length_branches": [
+    12,
+    24,
+    18
+  ],
+  "open_attacks": [
+    "core9+3+BREATHE+order+indexX",
+    "analking24+arizona",
+    "mak51mu524+Guardian",
+    "btcrecover-relog",
+    "pedestal-transcribe",
+    "157XIN",
+    "ebubedike-9",
+    "anchor-free-own-pool"
   ]
 }
