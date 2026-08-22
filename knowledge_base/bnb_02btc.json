@@ -1,21 +1,9 @@
 {
   "target": "1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
   "value": "20,107,284 sats ($12,668)",
-  "type": "BIP39 12w op 4 paden OF old-Electrum v1 (5 indexes, 2 change), compressed+uncompressed",
-  "status": "PARKED - tijdlijn-paradox + anchors ingetrokken",
-  "timeline_paradox": "funding 2020-05-10 vs George Floyd 2020-05-25 vs image okt 2020",
-  "anchors_retracted": "4 word-position anchors traceerden naar 2 Reddit accounts met zero posts; ingetrokken door floflo777",
-  "new_leads": [
-    "re-derive word inventory from image itself",
-    "rune transcription vs Russian-prose cipher key",
-    "BIP39 vs old-Electrum beslissen",
-    "3 btcrecover runs loggen"
-  ],
-  "image_sha256": "d0b04378f75d63997b8034ec2ef1bdd108178e4546de78237bd35abf4189a782",
-  "external_tested": "30M derivations, 10 families",
-  "sources": [
-    "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/blm-brave-new-world-0-2btc"
-  ],
+  "type": "BIP39 12w on 4 paths OR old-Electrum v1 (5 indexes, 2 change), compressed+uncompressed",
+  "status": "ACTIVE - retracted anchors corrected, attack surface isolated",
+  "timeline": "funding 2020-05-10 vs George Floyd 2020-05-25 vs image Oct 2020",
   "version": "v4-final-2026-08-22",
   "core9": [
     "moon",
@@ -91,5 +79,10 @@
     "157XIN",
     "ebubedike-9",
     "anchor-free-own-pool"
+  ],
+  "image_sha256": "d0b04378f75d63997b8034ec2ef1bdd108178e4546de7823bd35abf4189a82",
+  "external_tested": "30M derivations, 10 families",
+  "sources": [
+    "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/blm-brave-new-world-0-2btc"
   ]
 }
