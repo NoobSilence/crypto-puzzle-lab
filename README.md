@@ -1,59 +1,60 @@
 # Crypto Puzzle Lab
+
 Knowledge base + attack scripts + research methodology for open crypto puzzles.
 
-## Auteur: NoobSilence
-Methodoloog voor crypto puzzle research.
+## Author: NoobSilence
+Methodologist for crypto puzzle research.
 
 ---
 
-## Documentatie
+## Documentation
 
-| Document | Beschrijving |
-|----------|---------------|
-| docs/RESEARCH_METHODOLOGY.md | Unieke aanpak en ontdekkingen |
-| docs/PUZZLE_INDEX.md | Overzicht van alle puzzels |
-| docs/COMMUNITY_RESOURCES.md | Netwerk en collaborators |
-| docs/ROADMAP.md | Strategisch plan |
-| docs/0.2_BTC_FULL_ANALYSIS.md | BNW/BLM analyse (geparkeerd) |
-| docs/10ETH_GUNTIS_FULL_ANALYSIS.md | Guntis analyse (actief) |
+| Document | Description |
+|----------|-------------|
+| docs/RESEARCH_METHODOLOGY.md | Unique approach and discoveries |
+| docs/PUZZLE_INDEX.md | Overview of all puzzles |
+| docs/COMMUNITY_RESOURCES.md | Network and collaborators |
+| docs/ROADMAP.md | Strategic plan |
+| docs/0.2_BTC_FULL_ANALYSIS.md | BNW/BLM analysis (parked) |
+| docs/10ETH_GUNTIS_FULL_ANALYSIS.md | Guntis analysis (active) |
 | docs/GSMG_PIPELINE.md | GSMG solver |
 | docs/TECHNICAL_STACK.md | Laptop setup |
 
 ---
 
-## Key Discovery: Tijdlijn-Paradox
+## Key Discovery: Timeline Paradox
 
-0.2 BTC puzzel: De seed bestaat VOOR de image, niet andersom.
+**0.2 BTC puzzle:** The seed exists BEFORE the image, not the other way around.
 
-- Funding TX: 10 mei 2020
-- George Floyd: 25 mei 2020
-- Image: Oktober 2020
+- Funding TX: May 10, 2020
+- George Floyd: May 25, 2020
+- Image: October 2020
 
-Implicatie: Image is een private bijection, geen generative recipe.
+**Implication:** Image is a private bijection, not a generative recipe.
 
-Dit inzicht wordt gemist door 99% van de solvers.
+This insight is missed by 99% of solvers.
 
 ---
 
-## Actieve Puzzels
+## Active Puzzles
 
-### 10 ETH Guntis (Hoogste Prioriteit)
-- Adres: 0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF
-- Status: 7 checksum-valid combinaties, 0 hit
-- Volgende stap: Video frames analyseren
+### 10 ETH Guntis (Highest Priority)
+- Address: 0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF
+- Status: 7 checksum-valid combinations, 0 hit
+- Next step: Analyze video frames
 
 ### GSMG
-- Adres: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
-- Status: Wachtend op Florent's hint
+- Address: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+- Status: Waiting for Florent's hint
 
 ---
 
-## Repository Structuur
+## Repository Structure
 
 ```
 crypto-puzzle-lab/
-├── docs/                     # Alle documentatie
-├── knowledge_base/           # JSON per puzzel
+├── docs/                     # All documentation
+├── knowledge_base/           # JSON per puzzle
 └── scripts/                  # Attack + tool scripts
     ├── cert/
     ├── attacks/
@@ -62,21 +63,21 @@ crypto-puzzle-lab/
 
 ---
 
-## Technische Stack
+## Technical Stack
 
 - Python 3.11.3 + embit + coincurve + pycryptodome
-- ffmpeg voor video analysis
-- yt-dlp voor YouTube downloads
-- Git voor version control
+- ffmpeg for video analysis
+- yt-dlp for YouTube downloads
+- Git for version control
 
-Zie: docs/TECHNICAL_STACK.md
+See: docs/TECHNICAL_STACK.md
 
 ---
 
 ## Contact
 
 - GitHub: https://github.com/NoobSilence/crypto-puzzle-lab
-- Auteur: NoobSilence
+- Author: NoobSilence
 
 ---
 
