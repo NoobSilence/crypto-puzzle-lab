@@ -4,16 +4,41 @@
   "value": "5.0068982 BTC totaal ($315,435): 1.2563451 + 3.7505531 BTC",
   "type": "text-cipher, pixel-code, web-tree, raw-private-key; AES-256-CBC blob met sha256(X) password",
   "status": "ACTIVE - ORACLE WAS FOUT TOT 2026-08-19, ALLES RERUNNEN",
+  "pipeline_repro": {
+    "bifid": "BTCSEED keyed square DBIFHCEG row-major J-skipped interleaved",
+    "alphabet": "ABCDEFGHKLMNPQRSTUVWXYZ (23, no I/O/J)",
+    "dropped_letters": "OOIIOOOIIOOIOIIOIOOOOIOIIOIOI",
+    "even_stream": "285 chars base-4 {B,C,D,E}",
+    "dualite": "15-byte header + 1312-byte (41x32 = 16x82)"
+  },
+  "tested_routes": [
+    "335M direct reductions",
+    "94 lore + esrever",
+    "28 Matrix quotes",
+    "16x16 grid walks",
+    "Morse/binary/base-N",
+    "XOR-folds/Base58-mod-n",
+    "community base10-hex",
+    "6 OpenSSL variants",
+    "Dualite blob",
+    "5 visual hypotheses"
+  ],
+  "caveat": "search-space-empty conclusie ongeldig door foute oracle pre-19-08",
   "leads_ranked": [
     "rerun alles door nieuwe oracle",
     "SalPhaseIon page text names its password",
-    "replay dynamically-constructed candidates (filter bug)",
-    "is 256-symbol object wel het juiste target?",
-    "identificeer de single tool die alle phases bouwde",
-    "esrever = reverse (earliest hint)",
-    "29 dropped letters als eigen boodschap"
+    "replay dynamic candidates (filter bug)",
+    "is 256-symbol object juist target?",
+    "single tool identificeren",
+    "esrever = reverse",
+    "29 dropped letters als boodschap"
   ],
-  "tested_external": "337,199,235 candidates, 10 families",
+  "correspondence": {
+    "telegram_sent": "2026-08-18/19",
+    "florent_reply": "holiday until friday (2026-08-19 01:06)",
+    "back": "2026-08-21",
+    "next": "maandag update met re-run resultaten"
+  },
   "sources": [
     "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/gsmg-io-5btc-puzzle"
   ]
