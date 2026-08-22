@@ -1,9 +1,9 @@
 {
   "target_main": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
   "target_second": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
-  "value": "5.0068982 BTC totaal ($315,435): 1.2563451 + 3.7505531 BTC",
-  "type": "text-cipher, pixel-code, web-tree, raw-private-key; AES-256-CBC blob met sha256(X) password",
-  "status": "ACTIVE - ORACLE WAS FOUT TOT 2026-08-19, ALLES RERUNNEN",
+  "value": "5.0068982 BTC total ($315,435): 1.2563451 + 3.7505531 BTC",
+  "type": "text-cipher, pixel-code, web-tree, raw-private-key; AES-256-CBC blob with sha256(X) password",
+  "status": "ACTIVE - ORACLE WAS WRONG UNTIL 2026-08-19, EVERYTHING RERUNNING",
   "pipeline_repro": {
     "bifid": "BTCSEED keyed square DBIFHCEG row-major J-skipped interleaved",
     "alphabet": "ABCDEFGHKLMNPQRSTUVWXYZ (23, no I/O/J)",
@@ -23,21 +23,21 @@
     "Dualite blob",
     "5 visual hypotheses"
   ],
-  "caveat": "search-space-empty conclusie ongeldig door foute oracle pre-19-08",
+  "caveat": "search-space-empty conclusion invalid due to wrong oracle pre-Aug-19",
   "leads_ranked": [
-    "rerun alles door nieuwe oracle",
+    "rerun everything through new oracle",
     "SalPhaseIon page text names its password",
     "replay dynamic candidates (filter bug)",
-    "is 256-symbol object juist target?",
-    "single tool identificeren",
+    "is 256-symbol object correct target?",
+    "identify single tool",
     "esrever = reverse",
-    "29 dropped letters als boodschap"
+    "29 dropped letters as message"
   ],
   "correspondence": {
     "telegram_sent": "2026-08-18/19",
     "florent_reply": "holiday until friday (2026-08-19 01:06)",
     "back": "2026-08-21",
-    "next": "maandag update met re-run resultaten"
+    "next": "monday update with re-run results"
   },
   "sources": [
     "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/gsmg-io-5btc-puzzle"
