@@ -1,0 +1,13 @@
+{
+  "name": "Bitcoin Puzzle Transaction (310 BTC)",
+  "target": "Diverse adressen met patronen",
+  "value": "310 BTC (~EUR 20M)",
+  "type": "BTC Legacy",
+  "status": "ONOPGELOST",
+  "pattern": "Private keys met patronen (2^1, 2^2, 2^3...)",
+  "last_solved": "~2^67",
+  "method": "GPU brute-force met pattern matching",
+  "our_chance": "Zeer laag zonder GPU-farm",
+  "priority": 0,
+  "notes": "Alleen relevant als we toegang krijgen tot grote compute"
+}

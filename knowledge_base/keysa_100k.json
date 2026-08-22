@@ -1,0 +1,17 @@
+{
+  "name": "Keysa 100K ETH Puzzle",
+  "target": "diverse wallets",
+  "value": "EUR 100,000+",
+  "type": "ETH BIP44",
+  "status": "OPGELOST (2024)",
+  "solver": "Anoniem",
+  "duration": "~18 maanden",
+  "method": "Combinatie van hints + GPU brute-force",
+  "lessons": [
+    "GPU-compute is cruciaal voor grote puzzels",
+    "Hints + compute = winnende combinatie",
+    "18 maanden is realistische timeframe"
+  ],
+  "our_chance": "Laag zonder GPU upgrade",
+  "priority": 4
+}

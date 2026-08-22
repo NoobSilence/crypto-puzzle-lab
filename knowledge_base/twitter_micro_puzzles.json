@@ -1,0 +1,22 @@
+{
+  "name": "Twitter/X Crypto Puzzles",
+  "target": "Diverse adressen",
+  "value": "EUR 100-500 per puzzel",
+  "type": "BTC/ETH divers",
+  "status": "ACTIEF TE MONITOREN",
+  "sources": [
+    "Crypto Twitter accounts",
+    "#CryptoPuzzle hashtag",
+    "#BitcoinPuzzle hashtag"
+  ],
+  "advantages": [
+    "Minder concurrentie",
+    "Sneller oplosbaar",
+    "Goede oefening"
+  ],
+  "priority": 3,
+  "accounts_to_follow": [
+    "@guntis_vitolins",
+    "diverse puzzle authors"
+  ]
+}
