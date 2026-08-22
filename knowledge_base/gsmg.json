@@ -1,6 +1,20 @@
 {
-  "target": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
-  "status": "WAITING FOR FLORENT",
-  "pipeline": "Bifid key BTCSEED, keyed square DBIFHCEG, 256-symbol object, 23-letter alphabet",
-  "solver": "gsmg_final_solver_v2.py"
+  "target_main": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+  "target_second": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+  "value": "5.0068982 BTC totaal ($315,435): 1.2563451 + 3.7505531 BTC",
+  "type": "text-cipher, pixel-code, web-tree, raw-private-key; AES-256-CBC blob met sha256(X) password",
+  "status": "ACTIVE - ORACLE WAS FOUT TOT 2026-08-19, ALLES RERUNNEN",
+  "leads_ranked": [
+    "rerun alles door nieuwe oracle",
+    "SalPhaseIon page text names its password",
+    "replay dynamically-constructed candidates (filter bug)",
+    "is 256-symbol object wel het juiste target?",
+    "identificeer de single tool die alle phases bouwde",
+    "esrever = reverse (earliest hint)",
+    "29 dropped letters als eigen boodschap"
+  ],
+  "tested_external": "337,199,235 candidates, 10 families",
+  "sources": [
+    "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/gsmg-io-5btc-puzzle"
+  ]
 }

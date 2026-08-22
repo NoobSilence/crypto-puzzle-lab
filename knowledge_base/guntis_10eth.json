@@ -1,37 +1,40 @@
 {
   "target": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
-  "value": "10 ETH",
-  "type": "ETH BIP44 m/44'/60'/0'/0/0",
-  "status": "ACTIVE",
-  "video": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
-  "blog": "https://mineshop.eu/blog/mineshop-blog-tutorials/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing",
-  "video_bip39": [
-    "fog",
-    "lake",
-    "parrot",
-    "goat",
-    "fork",
-    "sing",
-    "song"
-  ],
-  "post_bip39": [
-    "round",
-    "dutch",
-    "cattle",
-    "forest",
-    "wood",
+  "value": "8.61254155425694462 ETH (~$16,192)",
+  "type": "ETH BIP44 m/44'/60'/0'/0/0, MetaMask, no passphrase",
+  "status": "ACTIVE - ANCHORED ATTACK",
+  "wallet_active": true,
+  "wallet_note": "Auteur heeft 7x opgenomen sinds 2021-05 (laatst 2024-06-04); key nog in gebruik",
+  "confirmed_positions": {
+    "1": "dutch",
+    "5": "fog",
+    "12": "parrot"
+  },
+  "confirmed_unplaced": [
     "fiber",
-    "fresh"
+    "fork"
   ],
-  "hint_sentences": [
-    "dark fog on the lake",
-    "parrot can sing a song then for a goat to whistle",
-    "Round dutch cattle is living in the forest and eating wood. Only because there is a lot of healthy fiber. Hunter like the rib roast dinner fresh."
+  "hints": [
+    "final word tropical bird = parrot",
+    "word 1 Netherlands = dutch",
+    "word 5 condensed droplets = fog",
+    "hint4 video 03wXiMczCXk 15:26 = fiber",
+    "hint5 video ZjBJKooVmuE 17:28 = fork"
   ],
-  "tested": "392 text-order combos + 48 focused + passphrases, 7 checksum-valid, no match yet",
-  "next_steps": [
-    "video tags checked (no BIP39)",
-    "inspect frames for visual words",
-    "test permutations of checksum-valid sets"
+  "metadata_tags_2020": [
+    "ethereum fork",
+    "round"
+  ],
+  "open_leads": [
+    "connecting words (will, only, like)",
+    "substrings of longer words",
+    "re-read video+post metadata"
+  ],
+  "external_tested": "16.75B derivations by floflo777, all negative",
+  "our_attack": "guntis_anchored_attack.py",
+  "sources": [
+    "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth",
+    "https://www.youtube.com/watch?v=03wXiMczCXk",
+    "https://www.youtube.com/watch?v=ZjBJKooVmuE"
   ]
 }

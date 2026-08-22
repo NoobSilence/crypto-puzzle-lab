@@ -1,0 +1,49 @@
+{
+  "generated": "2026-08-22",
+  "sources": [
+    {
+      "repo": "floflo777/open-crypto-puzzles",
+      "stars": 150,
+      "forks": 55,
+      "value": "$641K unsolved",
+      "note": "accepteert PRs; engines/ GPU code; oracle.py"
+    },
+    {
+      "repo": "oritwoen/boha",
+      "value": "puzzle data mirror",
+      "note": "kangaroo GPU solver"
+    },
+    {
+      "site": "btcpuzzle.info",
+      "value": "903 BTC unsolved",
+      "note": "160-puzzle tracker + pools"
+    },
+    {
+      "site": "privatekeys.pw",
+      "value": "21 puzzles",
+      "note": "solved keys directory"
+    },
+    {
+      "site": "bitcoinwords.github.io",
+      "value": "methodologie",
+      "note": "1T mnemonics case study, $425 -> 0.99 BTC"
+    }
+  ],
+  "communities": [
+    {
+      "name": "r/bitcoinpuzzles",
+      "type": "reddit",
+      "note": "actief, floflo777 sources er"
+    },
+    {
+      "name": "floflo777 repo issues/PRs",
+      "type": "github",
+      "note": "directe collaboratie met top researcher"
+    },
+    {
+      "name": "Puzzle World Discord",
+      "type": "discord",
+      "note": "puzzle hunting algemeen"
+    }
+  ]
+}
