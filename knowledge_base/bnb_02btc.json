@@ -1,0 +1,52 @@
+{
+  "target": "1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
+  "value": "0.2 BTC",
+  "type": "legacy->BIP44",
+  "status": "PARKED (private bijection)",
+  "key_discovery": "TIMELINE PARADOX: funding TX 2020-05-10, George Floyd died 2020-05-25, image Oct 2020. Seed predates image => image is check-step, not generative recipe.",
+  "funding_tx": "fcee21d44ee94c09869947c74b61669bf928358e9c2d1699fb075bb6ebf5d043",
+  "certain_words": [
+    "moon",
+    "tower",
+    "food",
+    "black",
+    "this",
+    "subject",
+    "one",
+    "order",
+    "real"
+  ],
+  "passphrase_theories": [
+    "BREATHE",
+    "Guardian"
+  ],
+  "visual": [
+    "mirrored Great Seal",
+    "swapped ties",
+    "ghost text FIND THE SEED PHRASE IN THE THIS PICTURE",
+    "12 clock sectors",
+    "44 stars",
+    "1865-202?",
+    "STOP fist O"
+  ],
+  "whitepaper_delta": [
+    "wich (which)",
+    "proot (proof)"
+  ],
+  "attacks_tested": 15,
+  "candidates": "~4.5M + 377B community",
+  "ruled_out": [
+    "GPU perms",
+    "BLM timeline",
+    "transforms",
+    "number-pool",
+    "clock-anchors",
+    "tie-swap",
+    "sector-pools",
+    "SHA256 brainwallet",
+    "on-chain txid",
+    "timestamps",
+    "date-math",
+    "24-word split"
+  ]
+}

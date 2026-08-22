@@ -1,0 +1,37 @@
+{
+  "target": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+  "value": "10 ETH",
+  "type": "ETH BIP44 m/44'/60'/0'/0/0",
+  "status": "ACTIVE",
+  "video": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
+  "blog": "https://mineshop.eu/blog/mineshop-blog-tutorials/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing",
+  "video_bip39": [
+    "fog",
+    "lake",
+    "parrot",
+    "goat",
+    "fork",
+    "sing",
+    "song"
+  ],
+  "post_bip39": [
+    "round",
+    "dutch",
+    "cattle",
+    "forest",
+    "wood",
+    "fiber",
+    "fresh"
+  ],
+  "hint_sentences": [
+    "dark fog on the lake",
+    "parrot can sing a song then for a goat to whistle",
+    "Round dutch cattle is living in the forest and eating wood. Only because there is a lot of healthy fiber. Hunter like the rib roast dinner fresh."
+  ],
+  "tested": "392 text-order combos + 48 focused + passphrases, 7 checksum-valid, no match yet",
+  "next_steps": [
+    "video tags checked (no BIP39)",
+    "inspect frames for visual words",
+    "test permutations of checksum-valid sets"
+  ]
+}

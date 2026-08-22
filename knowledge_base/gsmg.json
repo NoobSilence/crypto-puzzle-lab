@@ -1,0 +1,6 @@
+{
+  "target": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+  "status": "WAITING FOR FLORENT",
+  "pipeline": "Bifid key BTCSEED, keyed square DBIFHCEG, 256-symbol object, 23-letter alphabet",
+  "solver": "gsmg_final_solver_v2.py"
+}
