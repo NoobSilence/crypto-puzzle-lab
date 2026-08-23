@@ -45,3 +45,7 @@ AI researches -> AI drafts script/message (English) -> human runs/posts -> outpu
 ## Hard rules (2026-08-23)
 
 6. **DATA-FIRST**: before writing any script, the AI must verify current package versions, API endpoints, deprecations, and model names via research; never assume from training data.
+
+## Hard rules (2026-08-23, update 2)
+
+7. **CMD-first file creation**: all text files (py, md, json, txt) are created via CMD (`type nul > file.ext` then `notepad file.ext`), never via 'Save As' dialogs. This saves time and avoids path errors.
