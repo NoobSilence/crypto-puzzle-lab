@@ -41,3 +41,7 @@ AI researches -> AI drafts script/message (English) -> human runs/posts -> outpu
 
 - 2026-08-22: Initial protocol
 - 2026-08-23: Added English-only GitHub rule (principle #5)
+
+## Hard rules (2026-08-23)
+
+6. **DATA-FIRST**: before writing any script, the AI must verify current package versions, API endpoints, deprecations, and model names via research; never assume from training data.
