@@ -31,6 +31,32 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - **What happened:** When primary coding model failed, fallback was attempted but not logged
 - **Lesson:** Exception handling must log EVERY attempt, not just successes
 
+### M6: Vision hallucination with leading prompts (2026-08-23)
+- **What happened:** Mission 1b prompt asked specifically about MOON/TOWER/FOOD labels. Vision agent hallucinated all three with 92% confidence.
+- **Reality:** Unbiased prompt showed only 2 clock hands, NO labels, only "1865-202...?" text.
+- **Lesson:** Vision agents (especially Nemotron 12B VL) hallucinate when prompts suggest what to look for.
+- **Fix:** ALWAYS cross-check vision output with unbiased prompt that doesn't suggest expected content.
+- **Rule:** Never trust vision output without independent verification.
+
+### M7: Voting logic counted mentions not agents (2026-08-23)
+- **What happened:** mission_vision_voting.py reported "MOON: CONFIRMED (3/3)" but only Gemini mentioned MOON.
+- **Root cause:** Code counted keyword mentions per line, not distinct agents making the claim.
+- **Reality:** MOON/TOWER = 1/3 (only Gemini). FOOD = 0/3 (hallucination from mission 1b disproven).
+- **Lesson:** Voting/consensus logic must count DISTINCT AGENTS, not total mentions.
+- **Fix:** fix_voting_logic.py counts per-agent claim sets using set() per agent.
+
+### M8: Asked human for analysis that AI should do (2026-08-23)
+- **What happened:** I asked the user to open blm.png and tell me where the clock is.
+- **Why wrong:** Image analysis is AI cognitive work, not a human physical action. Violates hybrid division of labor.
+- **Lesson:** The AI must self-analyze via scripts/tools. Never delegate analysis to the human.
+- **Fix:** Built auto-detection script that finds the clock region without human input.
+
+### M9: Prompt contamination caused hallucination (2026-08-23)
+- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial.
+- **Reality:** 3-agent voting confirmed 0/3 agents see this quote. Dial actually has mirrored Latin (UBI BENE IBI PATRIA).
+- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content. Any mention of specific words biases the model.
+- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
+
 ## Models to NEVER suggest (as of 2026-08-23)
 - `gemini-2.5-flash` (deprecated)
 - `gemini-1.5-pro-latest` (deprecated)
@@ -44,59 +70,5 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - OpenRouter: `nvidia/nemotron-nano-12b-v2-vl:free`, `nvidia/nemotron-3-ultra-550b-a55b:free`, `nvidia/nemotron-3-super-120b-a12b:free`
 - Groq: `qwen/qwen3.6-27b` (vision, 1000 RPD)
 - Ollama: `gemma3:4b` (local, 4.3B)
+- Gemini: `gemini-3.6-flash` (via google.genai SDK)
 - Rate-limited (temporary): `poolside/laguna-s-2.1:free`, `cohere/north-mini-code:free`, `z-ai/glm-5.2:free`
-### M6: Vision hallucination with leading prompts (2026-08-23)
-- **What happened:** Mission 1b prompt asked specifically about MOON/TOWER/FOOD labels. Vision agent hallucinated all three with 92% confidence.
-- **Reality:** Unbiased prompt showed only 2 clock hands, NO labels, only "1865-202...?" text.
-- **Lesson:** Vision agents (especially Nemotron 12B VL) hallucinate when prompts suggest what to look for.
-- **Fix:** ALWAYS cross-check vision output with unbiased prompt that doesn't suggest expected content.
-- **Rule:** Never trust vision output without independent verification.
-
-
-
-### M8: Asked human for analysis that AI should do (2026-08-23)
-- **What happened:** I asked the user to open blm.png and tell me where the clock is.
-- **Why wrong:** Image analysis is AI cognitive work, not a human physical action. Violates hybrid division of labor.
-- **Lesson:** The AI must self-analyze via scripts/tools. Never delegate analysis to the human.
-- **Fix:** Built auto-detection script that finds the clock region without human input.
-### M9: Prompt contamination caused hallucination (2026-08-23)
-- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial, mixing prompt hints with actual image content.
-- **Reality:** 3-agent voting confirmed 0 agents see this quote. Dial actually has mirrored Latin (UBI BENE IBI PATRIA).
-- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content. Any mention of specific words biases the model.
-- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
-### M7: Voting logic counted mentions not agents (2026-08-23)
-- **What happened:** mission_vision_voting.py reported "MOON: CONFIRMED (3/3)" but only Gemini mentioned MOON.
-- **Root cause:** Code counted keyword mentions per line, not distinct agents making the claim.
-- **Reality:** MOON/TOWER = 1/3 (only Gemini). FOOD = 0/3 (hallucination from mission 1b disproven).
-- **Lesson:** Voting/consensus logic must count DISTINCT AGENTS, not total mentions.
-- **Fix:** fix_voting_logic.py counts per-agent claim sets.
-
-### M9: Prompt contamination caused hallucination (2026-08-23)
-- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial, mixing prompt hints with actual image content.
-- **Reality:** 3-agent voting confirmed 0/3 agents see this quote. Dial actually has mirrored Latin (UBI BENE IBI PATRIA).
-- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content. Any mention of specific words biases the model.
-- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
-### M7: Voting logic counted mentions not agents (2026-08-23)
-- **What happened:** mission_vision_voting.py reported "MOON: CONFIRMED (3/3)" but only Gemini mentioned MOON.
-- **Root cause:** Code counted keyword mentions per line, not distinct agents making the claim.
-- **Reality:** MOON/TOWER = 1/3 (only Gemini). FOOD = 0/3 (hallucination from mission 1b disproven).
-- **Lesson:** Voting/consensus logic must count DISTINCT AGENTS, not total mentions.
-- **Fix:** fix_voting_logic.py counts per-agent claim sets.
-
-### M9: Prompt contamination caused hallucination (2026-08-23)
-- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial.
-- **Reality:** 3-agent voting confirmed 0/3 agents see this quote. Dial actually has mirrored Latin.
-- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content.
-- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
-### M7: Voting logic counted mentions not agents (2026-08-23)
-- **What happened:** mission_vision_voting.py reported "MOON: CONFIRMED (3/3)" but only Gemini mentioned MOON.
-- **Root cause:** Code counted keyword mentions per line, not distinct agents making the claim.
-- **Reality:** MOON/TOWER = 1/3 (only Gemini). FOOD = 0/3 (hallucination from mission 1b disproven).
-- **Lesson:** Voting/consensus logic must count DISTINCT AGENTS, not total mentions.
-- **Fix:** fix_voting_logic.py counts per-agent claim sets using set() per agent.
-
-### M9: Prompt contamination caused hallucination (2026-08-23)
-- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial.
-- **Reality:** 3-agent voting confirmed 0/3 agents see this quote. Dial actually has mirrored Latin (UBI BENE IBI PATRIA).
-- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content. Any mention of specific words biases the model.
-- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
