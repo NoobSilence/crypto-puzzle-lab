@@ -36,5 +36,32 @@
     "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth",
     "https://www.youtube.com/watch?v=03wXiMczCXk",
     "https://www.youtube.com/watch?v=ZjBJKooVmuE"
-  ]
+  ],
+  "anchored_attack_v2_scaffold": {
+    "target": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+    "path": "m/44'/60'/0'/0/0",
+    "anchors": {
+      "0": "dutch",
+      "4": "fog",
+      "11": "parrot"
+    },
+    "unplaced": [
+      "fiber",
+      "fork"
+    ],
+    "full_search_space": 10880332376531662572355584,
+    "smart_search_space": 344373768,
+    "hint_words": [
+      "will",
+      "only",
+      "like",
+      "round",
+      "dutch",
+      "fog",
+      "parrot",
+      "fiber",
+      "fork"
+    ],
+    "status": "Scaffold complete - need smart brute force implementation"
+  }
 }
