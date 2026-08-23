@@ -58,3 +58,4 @@ AI researches -> AI drafts script/message (English) -> human runs/posts -> outpu
    - The AI must maintain an internal 'mistakes log' and consult it before suggesting tools/APIs/models.
    - When a tool fails (deprecation, rate limit, wrong ID), the AI must document it and NEVER suggest it again.
    - 'Up-to-date facts' means: research done IN THIS SESSION, not recalled from memory.
+9. **VISION CROSS-CHECK**: All vision agent output must be verified with an unbiased prompt that does not suggest expected content. Leading prompts cause hallucinations (proven 2026-08-23).

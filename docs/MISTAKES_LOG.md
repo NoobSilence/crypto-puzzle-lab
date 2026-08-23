@@ -45,3 +45,11 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - Groq: `qwen/qwen3.6-27b` (vision, 1000 RPD)
 - Ollama: `gemma3:4b` (local, 4.3B)
 - Rate-limited (temporary): `poolside/laguna-s-2.1:free`, `cohere/north-mini-code:free`, `z-ai/glm-5.2:free`
+### M6: Vision hallucination with leading prompts (2026-08-23)
+- **What happened:** Mission 1b prompt asked specifically about MOON/TOWER/FOOD labels. Vision agent hallucinated all three with 92% confidence.
+- **Reality:** Unbiased prompt showed only 2 clock hands, NO labels, only "1865-202...?" text.
+- **Lesson:** Vision agents (especially Nemotron 12B VL) hallucinate when prompts suggest what to look for.
+- **Fix:** ALWAYS cross-check vision output with unbiased prompt that doesn't suggest expected content.
+- **Rule:** Never trust vision output without independent verification.
+
+
