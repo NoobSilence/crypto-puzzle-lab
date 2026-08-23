@@ -53,3 +53,9 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - **Rule:** Never trust vision output without independent verification.
 
 
+
+### M8: Asked human for analysis that AI should do (2026-08-23)
+- **What happened:** I asked the user to open blm.png and tell me where the clock is.
+- **Why wrong:** Image analysis is AI cognitive work, not a human physical action. Violates hybrid division of labor.
+- **Lesson:** The AI must self-analyze via scripts/tools. Never delegate analysis to the human.
+- **Fix:** Built auto-detection script that finds the clock region without human input.

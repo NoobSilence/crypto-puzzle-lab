@@ -59,3 +59,11 @@ AI researches -> AI drafts script/message (English) -> human runs/posts -> outpu
    - When a tool fails (deprecation, rate limit, wrong ID), the AI must document it and NEVER suggest it again.
    - 'Up-to-date facts' means: research done IN THIS SESSION, not recalled from memory.
 9. **VISION CROSS-CHECK**: All vision agent output must be verified with an unbiased prompt that does not suggest expected content. Leading prompts cause hallucinations (proven 2026-08-23).
+
+## Hard rules (2026-08-23, update 4)
+
+10. **PRE-PUSH VERIFICATION**: Before EVERY git push, the AI must verify 100% that all files, content, commit messages, and structure are correct and match the knowledge base. No next task until the push is confirmed clean on GitHub.
+
+11. **SCRIPT CORRECTNESS FIRST**: Every script must be fully reviewed, bug-checked, and validated by the AI BEFORE the user runs it. The AI must catch logic errors (e.g., M7 voting bug, groq_key attribute bug) in advance, never after a failed run.
+
+12. **AI OWNS THE ANALYSIS**: The AI never asks the human to do analysis, inspection, or interpretation that the AI can do itself. The human only performs physical actions (run, push, post, decide). All cognitive work belongs to the AI.
