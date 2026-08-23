@@ -267,5 +267,110 @@
       "Qwen",
       "Gemini"
     ]
+  },
+  "cipher_decoding_attempts": {
+    "cipher": "O\u0394MM\u0394:48\u0394X:\u03a84O4I",
+    "groups": [
+      "O\u0394MM\u0394",
+      "48\u0394X",
+      "\u03a84O4I"
+    ],
+    "hypotheses": {
+      "letter_positions": [
+        [
+          15,
+          852,
+          13,
+          13,
+          852
+        ],
+        [
+          852,
+          24
+        ],
+        [
+          872,
+          15,
+          9
+        ]
+      ],
+      "greek_values": [
+        {
+          "\u0394": 4
+        },
+        {
+          "\u0394": 4
+        },
+        {
+          "\u03a8": 700
+        }
+      ],
+      "mixed_encoding": [
+        [
+          15,
+          852,
+          13,
+          13,
+          852
+        ],
+        [
+          4,
+          8,
+          852,
+          24
+        ],
+        [
+          872,
+          4,
+          15,
+          4,
+          9
+        ]
+      ]
+    }
+  },
+  "cipher_bip39_words": {
+    "cipher": "O\u0394MM\u0394:48\u0394X:\u03a84O4I",
+    "hypothesis": "Greek numerals \u2192 BIP39 indices",
+    "groups": {
+      "Group 1 (O\u0394MM\u0394)": [
+        15,
+        4,
+        13,
+        13,
+        4
+      ],
+      "Group 2 (48\u0394X)": [
+        4,
+        8,
+        4,
+        24
+      ],
+      "Group 3 (\u03a84O4I)": [
+        700,
+        4,
+        15,
+        4,
+        9
+      ]
+    },
+    "words": [
+      "achieve",
+      "about",
+      "account",
+      "account",
+      "about",
+      "about",
+      "abstract",
+      "about",
+      "actual",
+      "first",
+      "about",
+      "achieve",
+      "about",
+      "absurd"
+    ],
+    "total_words": 14,
+    "core9_overlap": []
   }
 }
