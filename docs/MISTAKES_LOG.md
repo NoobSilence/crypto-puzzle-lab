@@ -59,3 +59,8 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - **Why wrong:** Image analysis is AI cognitive work, not a human physical action. Violates hybrid division of labor.
 - **Lesson:** The AI must self-analyze via scripts/tools. Never delegate analysis to the human.
 - **Fix:** Built auto-detection script that finds the clock region without human input.
+### M9: Prompt contamination caused hallucination (2026-08-23)
+- **What happened:** Mission 2 prompt mentioned "whitepaper", "payee", "transaction". Nemotron hallucinated the text "THEY WERE RECEIVED THE PAYEE NEEDS POOR" on the dial, mixing prompt hints with actual image content.
+- **Reality:** 3-agent voting confirmed 0 agents see this quote. Dial actually has mirrored Latin (UBI BENE IBI PATRIA).
+- **Lesson:** Vision prompts must NEVER contain examples or hints about expected content. Any mention of specific words biases the model.
+- **Fix:** Unbiased prompts only describe region, never content. Always verify with 3-agent voting (rule 9).
