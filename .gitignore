@@ -2,3 +2,7 @@
 *.mp4
 *.png
 __pycache__/
+.env
+swarm/blm.png
+*.log
+__pycache__/

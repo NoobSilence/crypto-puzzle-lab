@@ -84,5 +84,102 @@
   "external_tested": "30M derivations, 10 families",
   "sources": [
     "https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/blm-brave-new-world-0-2btc"
-  ]
+  ],
+  "vision_transcript": {
+    "pedestal": {
+      "text": "ONLY REAL BITCOIN",
+      "confidence": 0.95
+    },
+    "bottom_band": {
+      "text": "in which they were deceived...",
+      "confidence": 0.8
+    },
+    "dial": {
+      "text": "10 11 12 1 2 3 ANNUIT COEPTIS NOVUS ORDO SECLORUM",
+      "confidence": 0.9
+    },
+    "glyphs": {
+      "count": 45,
+      "description": "Vertical column of alphanumeric characters and symbols on the right edge"
+    },
+    "words_found": [
+      "STOP",
+      "BLM",
+      "WELCOME",
+      "TO",
+      "THE",
+      "BRAVE",
+      "NEW",
+      "WORLD",
+      "BLACK",
+      "LIVES",
+      "MATTER",
+      "NO",
+      "JUSTICE",
+      "PEACE",
+      "END",
+      "POLICE",
+      "BRUTALITY",
+      "KILLING",
+      "US",
+      "NOT",
+      "ONE",
+      "MORE",
+      "FUCK",
+      "THIS",
+      "SHIT",
+      "OS",
+      "25.20",
+      "I",
+      "can't",
+      "BREATHE",
+      "VS",
+      "11.03.20",
+      "Order",
+      "and",
+      "stability",
+      "AND",
+      "SEED",
+      "PHRASE",
+      "1865-202...?",
+      "ONLY",
+      "REAL",
+      "BITCOIN",
+      "ANNUIT",
+      "COEPTIS",
+      "NOVUS",
+      "ORDO",
+      "SECLORUM",
+      "Esse",
+      "quam",
+      "niger"
+    ],
+    "bip39_candidates": [
+      "brave",
+      "new",
+      "world",
+      "black",
+      "lives",
+      "matter",
+      "justice",
+      "peace",
+      "police",
+      "brutality",
+      "killing",
+      "stop",
+      "fuck",
+      "shit",
+      "breathe",
+      "order",
+      "stability",
+      "seed",
+      "phrase",
+      "bitcoin",
+      "annuit",
+      "coeptis",
+      "novus",
+      "ordo",
+      "seclorum"
+    ]
+  }
 }
