@@ -49,3 +49,12 @@ AI researches -> AI drafts script/message (English) -> human runs/posts -> outpu
 ## Hard rules (2026-08-23, update 2)
 
 7. **CMD-first file creation**: all text files (py, md, json, txt) are created via CMD (`type nul > file.ext` then `notepad file.ext`), never via 'Save As' dialogs. This saves time and avoids path errors.
+
+## Hard rules (2026-08-23, update 3)
+
+8. **LEARN FROM MISTAKES** (hard rule):
+   - The AI must NEVER repeat failed steps (wrong package versions, wrong model IDs, wrong endpoints).
+   - Before any script, the AI must verify EVERYTHING from scratch via web research — no assumptions from training data.
+   - The AI must maintain an internal 'mistakes log' and consult it before suggesting tools/APIs/models.
+   - When a tool fails (deprecation, rate limit, wrong ID), the AI must document it and NEVER suggest it again.
+   - 'Up-to-date facts' means: research done IN THIS SESSION, not recalled from memory.

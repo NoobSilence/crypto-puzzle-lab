@@ -1,0 +1,41 @@
+{
+  "working": [
+    {
+      "status": "OK",
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free"
+    },
+    {
+      "status": "OK",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free"
+    },
+    {
+      "status": "OK",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free"
+    },
+    {
+      "status": "OK",
+      "model": "poolside/laguna-s-2.1:free"
+    },
+    {
+      "status": "OK",
+      "model": "cohere/north-mini-code:free"
+    },
+    {
+      "status": "OK",
+      "model": "qwen/qwen3.6-27b",
+      "source": "groq"
+    }
+  ],
+  "failed": [
+    {
+      "status": "FAIL",
+      "model": "z-ai/glm-5.2:free",
+      "error": 429
+    },
+    {
+      "status": "ERROR",
+      "model": "gemma3:4b",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)"
+    }
+  ]
+}
