@@ -1,0 +1,4 @@
+{
+  "working_model": "gemini-3.6-flash",
+  "sdk": "google.genai"
+}
