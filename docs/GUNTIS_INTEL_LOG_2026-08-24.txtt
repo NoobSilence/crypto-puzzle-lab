@@ -1,0 +1,116 @@
+================================================================
+GUNTIS 10 ETH - INTEL & RESEARCH LOG
+Date: 2026-08-24 | Status: FACT-CHECKED (verified data only)
+================================================================
+
+[1] PUZZLE IDENTITY
+- Name: Guntis Vitolins: 10 ETH Challenge (MetaMask seed)
+- Prize: 8.612541554256945 ETH (~$21,052 live balance)
+- Target: 0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF
+- Path: m/44'/60'/0'/0/0
+- Type: bip39-seed, word-selection, video-series
+- Status: open (bounded-compute)
+
+[2] PRIMARY SOURCES
+- Challenge video: youtube.com/watch?v=w4mpiuBP_aY
+- Blog post: mineshop.eu (2020-02-12, Wayback-captured)
+- Hint videos: 3DUufb9wBHA, -MeIaPdVJjA, 635pXfzlzqA,
+  03wXiMczCXk, ZjBJKooVmuE
+
+[3] PLANTED SENTENCES (verbatim, triple-confirmed)
+V1: "Don't expect anything easy there will be dark fog on the
+    lake. Also It is not impossible."
+V2: "Do you think its more likely for parrot can sing a song
+    then for a goat to whistle?"
+A1: "Round dutch cattle is living in the forest and eating
+    wood."
+A2: "Only because there is a lot of healthy fiber."
+A3: "Hunter like the rib roast dinner fresh."
+
+[4] CONFIRMED HINTS
+H1 (pos 12): parrot | H2 (pos 1): dutch | H3 (pos 5): fog
+H4: fiber (no fixed pos) | H5: fork (no fixed pos)
+
+[5] ON-CHAIN FORENSICS (verified 2026-08-24, multi-RPC)
+- PUZZLE_WALLET: 8.61 ETH, nonce 7, EOA, active 2024-06-04
+- 6 DRAIN DESTS: all EOA personal wallets (no exchanges/mixers)
+  -> DRAIN3 holds 0.22 ETH (pure cold storage)
+- RACE PROTOCOL: author monitors actively; instant sweep
+  required on any hit
+- Funding: Poloniex 4, 2020-02-12 13:17
+
+[6] HEX INPUT DATA ANALYSIS (NEGATIVE 2026-08-24)
+- 12/12 transactions analyzed via RPC eth_getTransactionByHash
+- All pure ETH transfers with empty input data (0x)
+- No ASCII text, no BIP39 words, no encoded hints
+- HYPOTHESIS H9 DISPROVED: hex-encoding vector ruled out
+
+[7] EXPERT SWEEPS (floflo777/open-crypto-puzzles)
+- P1: 2.4B candidates | G1: 79M | R1: 3.38B | R2-R1: 1.23B
+  | S1: 1.16B | R1b: 10.75B
+- Issue #13 (2026-08-24): Lead 1 KILLED, 18.66B derivations,
+  witnessed, 0 match, $11 on L40S @ 987k/s
+- Lead 2 (substrings) still OPEN (~$100-200 GPU cost)
+- Lead 3 (metadata re-read) still OPEN
+
+[8] COMMUNITY SWEEP (2026-08-24)
+- C1 OBSERVED: bitcointalk thread 5225392 (author cross-post
+  2020-02-12, 0 replies, 285 reads). Unique BIP39 tokens vs
+  blog: update, post, original, address, mine, all, video.
+  NEVER SWEPT.
+- C2 OBSERVED: portfolio thread 5217592 has no planted
+  sentences in author posts.
+- C3 OBSERVED: t.me/mineshop_eu empty (68 members).
+- C4 OBSERVED: no Reddit presence -> under-discussed.
+- C5 OBSERVED: LinkedIn identity: Guntis Vitolins, MD
+  @mineshop.eu, ETH Zurich.
+
+[9] NEW FINDINGS (own scan 2026-08-24)
+- F1: Archived blog comment: author="sponsor", body="only".
+  Both valid BIP39 words. NEVER TESTED by expert.
+- F2: "sponsor" in blog body + video transcript; "donor" in
+  video transcript. Both untested.
+- F3: Author quote 2020-08: "if will have to many words,
+  people can make bot and have easy guess." -> SMALL POOL
+  design (~14 planted = 12 + ~2 decoys).
+
+[10] HARDWARE FACTS
+- Laptop: CPU swarm ~1.8k/s (NVIDIA unconfirmed, T01)
+- Phone (OnePlus 15): ~35/s (library issues) -> unusable
+- Expert GPU (L40S): ~987k/s; rental ~$11 per 18.66B derivs
+- Cantrell model (1.1T checks): ~$350 cash + ~$75 free Azure
+
+[11] PORTFOLIO FIT
+- RANK 1 Guntis (primary, race-condition aware)
+- RANK 2 Aoi Nakamoto Quizchain (same engine, live clues)
+- RANK 3 BLM Collage (our open issue #12 = foothold)
+- RANK 4 GSMG.io (degraded: price cut 5->1.5 BTC, AES gate,
+  meta-message risk)
+- SKIP: Ballet (physical), Peter Todd (research-breakthrough)
+
+[12] OWN RUN LEDGER
+- Run 1 (laptop): dutch@1/fog@5/parrot@12 + hints; 1.18M
+  combos, 0 hits, 3145/s
+- Run 2 (phone): idem, 0 hits, peak 4115/s
+- Run 5 (laptop swarm 4 cores): fog@6; 1.18M combos, 0 hits,
+  1804/s
+- Weak negatives: tiny subsets of expert space
+
+[13] STRATEGIC CONCLUSIONS
+- Hex-encoding vector ruled out (12/12 empty input data)
+- Comment surface (sponsor/donor/only) = unique untested
+  foothold
+- Bitcointalk link-words = unique untested surface
+- Race protocol active: key-holder drains ~1.4 ETH since 2021
+- Small-pool design confirmed by author quote -> sharp
+  candidate list preferred over wide sweeps
+
+[14] NEXT ACTIONS
+- FRAME HUNTER: OCR on-screen text from challenge video
+- POOL BUILDER: merge comment/bitcointalk/substring candidates
+- TEST-SWEEP: 5-min CPU run; if promising -> rent GPU (~$10-20)
+- WITNESS PROTOCOL: plant 2 known-valid candidates per run
+
+================================================================
+END OF LOG
+================================================================
