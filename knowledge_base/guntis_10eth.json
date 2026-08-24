@@ -67,5 +67,12 @@
   "unplaced": [
     "fiber",
     "fork"
-  ]
+  ],
+  "smart_attack_result": {
+    "tested": 1179648,
+    "checksum_valid": 73990,
+    "hits": 0,
+    "elapsed_seconds": 351.9310941696167,
+    "status": "complete - no hit"
+  }
 }
