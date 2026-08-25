@@ -27,15 +27,13 @@
 
 ### Tools
 - scripts/tools/guntis_analyze.py
-- scripts/tools/guntis_frames_all.py
+- scripts/guntis_anchored_attack_v2.py
 
 ### Attacks
-- scripts/attacks/guntis/guntis_attack.py
-- scripts/attacks/guntis/guntis_attack2.py
-- scripts/attacks/guntis/guntis_exhaustive.py
-- scripts/attacks/guntis/guntis_checksum_list.py
-- scripts/attacks/guntis/guntis_focused.py
-- scripts/attacks/gsmg/gsmg_final_solver_v2.py
+- scripts/guntis_attack_v2.py
+- scripts/guntis_smart_attack.py
+- scripts/run6_tiers.py
+- scripts/swarm_attack.py
 
 ## Performance
 

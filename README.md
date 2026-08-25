@@ -13,7 +13,7 @@ To methodically document, analyze, and attempt resolution of high-value crypto p
 ## Active Investigations
 
 ### 1. Guntis Vitolins: 10 ETH Challenge (Primary Focus)
-- **Prize**: 8.61 ETH (~$21,052)
+- **Challenge**: 10 ETH; current wallet balance: 8.61 ETH (~$21,052)
 - **Target**: `0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF`
 - **Type**: BIP39 seed phrase (12 words) hidden in video + blog post
 - **Status**: Open (puzzle still live as of 2026-08-24)
@@ -100,7 +100,7 @@ No negative result is accepted unless 2 known-valid candidates are successfully 
 
 ### Prerequisites
 ```bash
-pip install embit coincurve pycryptodome requests
+pip install -r requirements.txt
 
 cd scripts
 python run6_tiers.py

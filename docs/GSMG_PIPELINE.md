@@ -24,7 +24,9 @@ Decoded text -> private key via:
 5. Raw bytes (als tekst 32 bytes is)
 
 ## Solver Script
-File: scripts/attacks/gsmg/gsmg_final_solver_v2.py
+No GSMG solver script is currently included in this repository. The final-stage
+methods below document the intended pipeline and should be implemented before
+any execution is described as reproducible.
 
 ## Status
 - Bifid decoding: Working

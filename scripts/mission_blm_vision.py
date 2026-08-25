@@ -1,10 +1,7 @@
-"""
-MISSIE 1: BLM collage forensische transcriptie (Groq Vision - Qwen 3.6 27B)
-Het enige beschikbare vision model op Groq
-"""
+"""BLM collage forensic transcription using the maintained swarm orchestrator."""
 import sys, os, requests, base64, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from orchestrator import Swarm
+from orchestrator_v2 import Swarm
 
 swarm = Swarm()
 
@@ -28,7 +25,7 @@ with open(IMG_LOCAL, "rb") as f:
 
 # 3) Groq Vision - Qwen 3.6 27B (het enige vision model)
 from groq import Groq
-client = Groq(api_key=swarm.groq_key)
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 TASK = """You are a forensic image analyst examining a Bitcoin puzzle collage.
 Transcribe EVERY visible text element, region by region:

@@ -1,0 +1,16 @@
+# Core cryptography and derivation
+embit
+coincurve
+pycryptodome
+mnemonic
+eth-account
+eth-utils
+
+# HTTP, configuration, and image analysis
+requests
+python-dotenv
+Pillow
+
+# Optional AI providers used by scripts/orchestrator_v2.py
+groq
+google-genai

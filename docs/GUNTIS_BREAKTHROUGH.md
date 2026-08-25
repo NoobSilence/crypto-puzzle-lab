@@ -42,4 +42,4 @@ Guntis made 7 outgoing transactions since 2021-05 (most recently 2024-06-04, ~1.
 - Fill 7 slots from the pool: round, cattle, forest, wood, fresh, hunter, lake, goat, sing, song (+ will, only, like)
 - Checksum pre-filter (1/16), then ETH Keccak derivation
 - Laptop: ~43M combinations -> ~2.7M derivations -> feasible with multiprocessing
-- Script: scripts/attacks/guntis/guntis_anchored_attack.py
+- Script: scripts/guntis_anchored_attack_v2.py
