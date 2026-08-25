@@ -1,3 +1,7 @@
+![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # Crypto Puzzle Lab
 
 A systematic research lab for analyzing and solving complex cryptocurrency puzzles using blockchain forensics, OSINT, and semantic anomaly detection.
@@ -9,6 +13,18 @@ To methodically document, analyze, and attempt resolution of high-value crypto p
 - **Semantic analysis**: identifying planted words and hidden patterns in puzzle sources
 - **BIP39 wordlist matching**: cross-referencing puzzle text against the 2048-word seed phrase list
 - **Community intelligence**: tracking solver progress and author communications
+
+## Operating Loop
+
+```mermaid
+graph TD
+	A[AI: Research and Strategy] --> B[AI: Draft Script or Message]
+	B --> C[Human: Run Script, Post, or Push]
+	C --> D[Human: Return Output to AI]
+	D --> E[AI: Analyze Output and Iterate]
+	E -->|Success| F[Document in Knowledge Base]
+	E -->|Failure| G[Fail-Fast: Log and Pivot]
+```
 
 ## Active Investigations
 
@@ -40,6 +56,9 @@ To methodically document, analyze, and attempt resolution of high-value crypto p
 
 crypto-puzzle-lab/
 ├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── SECURITY.md
 ├── docs/       # Puzzle analyses, research logs, protocols, and roadmap
 ├── scripts/    # Reproducible analysis, verification, and attack scripts
 └── knowledge_base/ # Machine-readable research outputs
@@ -53,6 +72,8 @@ Start with these documents:
 - [GSMG pipeline](docs/GSMG_PIPELINE.md) - documented GSMG solving pipeline
 - [Research methodology](docs/RESEARCH_METHODOLOGY.md) - evidence and validation rules
 - [Hybrid protocol](docs/HYBRID_PROTOCOL.md) - AI/human operating protocol
+- [Contributing guide](CONTRIBUTING.md) - collaboration and evidence rules
+- [Security policy](SECURITY.md) - responsible disclosure guidance
 
 
 ## Key Findings (Guntis 10 ETH Challenge)
@@ -101,7 +122,10 @@ No negative result is accepted unless 2 known-valid candidates are successfully 
 ### Prerequisites
 ```bash
 pip install -r requirements.txt
+```
 
+### Execution
+```bash
 cd scripts
 python run6_tiers.py
 ```
@@ -114,7 +138,7 @@ Expected output includes a witness check before the main search:
 Either !!! HIT !!! or [RESULT] Tier-S negative (witnessed)
 ```
 
-On-chain forensics scripts:
+### On-chain forensics scripts
 
 ```bash
 python ens_forensics.py    # Wallet analysis
