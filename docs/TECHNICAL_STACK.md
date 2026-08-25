@@ -1,24 +1,24 @@
-# Technische Stack - Laptop Setup
+# Technical Stack - Laptop Setup
 
-## Specificaties
+## Specifications
 - CPU: Intel Core i3-6157U @ 2.40GHz (2 cores/4 threads)
 - RAM: 8 GB
 - Storage: 238 GB SSD
-- GPU: Intel Iris Graphics 550 (geen CUDA/OpenCL)
+- GPU: Intel Iris Graphics 550 (no CUDA/OpenCL)
 - OS: Windows 10 (64-bit)
 
-## Geinstalleerde Software
+## Installed Software
 
 ### Python
-- Versie: 3.11.3
+- Version: 3.11.3
 - Packages: embit 0.8.0, coincurve 21.0.0, pycryptodome 3.23.0, pillow 12.3.0, numpy 2.4.6, opencv-python 5.0.0.93, yt-dlp
 
 ### ffmpeg
-- Versie: 9.0-full_build
-- Gebruik: Video frame extraction
+- Version: 9.0-full_build
+- Use: Video frame extraction
 
 ### Git
-- Versie: 2.55.0.windows.3
+- Version: 2.55.0.windows.3
 
 ## Scripts
 
@@ -42,4 +42,4 @@
 ### BIP39 Derivation
 - BTC (BIP44/84): ~1000 addr/sec
 - ETH (Keccak): ~800 addr/sec
-- Met passphrase: ~500 addr/sec
+- With passphrase: ~500 addr/sec

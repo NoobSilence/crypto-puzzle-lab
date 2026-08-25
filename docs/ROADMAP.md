@@ -1,97 +1,97 @@
 # Strategic Roadmap
 
-Multi-fase plan om van methodoloog naar puzzle-winaar te evolueren.
+Multi-phase plan to evolve from methodologist to puzzle winner.
 
 ---
 
-## Huidige Positie (Augustus 2026)
+## Current Position (August 2026)
 
-### Sterktes
+### Strengths
 - Systematische aanpak (gecertificeerde stack)
 - Cross-puzzle infrastructuur
 - Tijdlijn-paradox inzicht
 - GitHub knowledge base
 
-### Zwaktes
-- Geen GPU (800 addr/sec vs 5M voor GPU rigs)
-- Solo werken
-- 0 oplossingen tot nu toe
+### Weaknesses
+- No GPU (800 addr/sec vs 5M for GPU rigs)
+- Working solo
+- 0 solutions so far
 
-### Doel
-Word een erkende crypto puzzle methodoloog met bewezen track record.
+### Goal
+Become a recognized crypto puzzle methodologist with a proven track record.
 
 ---
 
-## Fase 1: Foundation (Nu - 1 maand)
+## Phase 1: Foundation (Now - 1 month)
 
-### Doel: Eerste overwinning + community integratie
+### Goal: First win + community integration
 
-Acties:
+Actions:
 1. Guntis 10 ETH kraken
-   - Video frames analyseren
-   - Permutaties testen op 7 checksum-valid combinaties
-   - Passphrases uitbreiden
+   - Analyze video frames
+   - Test permutations against 7 checksum-valid combinations
+   - Expand passphrases
 
-2. GitHub knowledge base uitbreiden
+2. Expand the GitHub knowledge base
    - RESEARCH_METHODOLOGY.md
    - PUZZLE_INDEX.md
    - COMMUNITY_RESOURCES.md
    - ROADMAP.md
 
-3. Join eerste community
+3. Join the first community
    - Mineshop EU Telegram
    - Crypto Puzzle Hunters Discord
 
-Succes-criteria:
-- [ ] Minimaal 1 puzzel opgelost OF
-- [ ] 3+ communities actief gemonitord
+Success criteria:
+- [ ] At least 1 puzzle solved OR
+- [ ] 3+ communities actively monitored
 
 ---
 
-## Fase 2: Scale (1-6 maanden)
+## Phase 2: Scale (1-6 months)
 
-### Doel: Compute upgrade + netwerk bouwen
+### Goal: Compute upgrade + build a network
 
-Acties:
+Actions:
 1. Hardware upgrade
-   - 1x RTX 3060 of 4060 (~EUR 400)
-   - Verhoogt brute-force met 50x
+   - 1x RTX 3060 or 4060 (~EUR 400)
+   - Increases brute force by 50x
 
-2. Samenwerking vinden
+2. Find collaborators
    - 1-2 trusted collaborators in communities
-   - Complementaire skills
+   - Complementary skills
 
-3. Reputation building
-   - Deel research op Discord
-   - Help anderen met certificering
-   - Bouw portfolio van analyses
+3. Build reputation
+   - Share research on Discord
+   - Help others with certification
+   - Build a portfolio of analyses
 
-Succes-criteria:
+Success criteria:
 - [ ] GPU operationeel
 - [ ] 1+ collaboration actief
 - [ ] 3+ puzzle analyses gepubliceerd
 
 ---
 
-## Fase 3: Mastery (6-18 maanden)
+## Phase 3: Mastery (6-18 months)
 
-### Doel: Grotere puzzels winnen + thought leadership
+### Goal: Win larger puzzles + thought leadership
 
-Acties:
-1. Target grote puzzels
-   - Volgende Keysa editie (EUR 100K+)
-   - Nieuwe community puzzles
+Actions:
+1. Target large puzzles
+   - Next Keysa edition (EUR 100K+)
+   - New community puzzles
    - Twitter/X micro-puzzles
 
-2. Methodologie publiceren
-   - Blog post over tijdlijn-paradox
-   - YouTube video over approach
+2. Publish methodology
+   - Blog post about the timeline paradox
+   - YouTube video about the approach
 
-3. Community leider worden
-   - Mentor nieuwe solvers
-   - Organiseer puzzle hunts
+3. Become a community leader
+   - Mentor new solvers
+   - Organize puzzle hunts
 
-Succes-criteria:
+Success criteria:
 - [ ] EUR 50K+ gewonnen aan puzzels
 - [ ] Erkenning als methodoloog
 - [ ] 10+ collaborations
@@ -100,38 +100,38 @@ Succes-criteria:
 
 ## Milestones
 
-| Maand | Milestone | Status |
+| Month | Milestone | Status |
 |-------|-----------|--------|
 | Aug 2026 | GitHub knowledge base live | DONE |
 | Sep 2026 | Guntis 10 ETH gekraakt | TODO |
-| Okt 2026 | 3 communities actief | TODO |
+| Oct 2026 | 3 communities active | TODO |
 | Dec 2026 | GPU upgrade | TODO |
-| Feb 2027 | Eerste collaboration win | TODO |
+| Feb 2027 | First collaboration win | TODO |
 | Aug 2027 | EUR 50K+ totaal gewonnen | TODO |
 
 ---
 
-## Risico's en Mitigatie
+## Risks and Mitigation
 
-### Risico 1: Puzzel onoplosbaar
-- Mitigatie: Fail-fast filosofie, pivot snel
+### Risk 1: Puzzle is unsolvable
+- Mitigation: Fail-fast philosophy, pivot quickly
 
-### Risico 2: Concurrentie wint eerst
-- Mitigatie: Focus op unieke aanpak
+### Risk 2: Competitor wins first
+- Mitigation: Focus on a unique approach
 
-### Risico 3: Burnout
-- Mitigatie: Limiteer tot 1-2 actieve puzzels tegelijk
+### Risk 3: Burnout
+- Mitigation: Limit to 1-2 active puzzles at a time
 
-### Risico 4: Hardware limitaties
-- Mitigatie: GPU upgrade in Fase 2
+### Risk 4: Hardware limitations
+- Mitigation: GPU upgrade in Phase 2
 
 ---
 
-## Visie
+## Vision
 
-Word de go-to methodoloog voor crypto puzzles.
+Become the go-to methodologist for crypto puzzles.
 
-Niet door de meeste puzzels te winnen, maar door:
-- De slimste aanpak te hebben
-- De beste documentatie te delen
-- De community te versterken
+Not by winning the most puzzles, but by:
+- Having the smartest approach
+- Sharing the best documentation
+- Strengthening the community

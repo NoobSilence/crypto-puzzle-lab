@@ -1,45 +1,45 @@
-# Guntis Breakthrough - Externe Intel (22 aug 2026)
+# Guntis Breakthrough - External Intelligence (22 Aug 2026)
 
-Bron: floflo777/open-crypto-puzzles/1-big-prizes/guntis-vitolins-metamask-8-6eth (laatst bijgewerkt 21 aug 2026, 14 uur geleden).
+Source: floflo777/open-crypto-puzzles/1-big-prizes/guntis-vitolins-metamask-8-6eth (last updated 21 Aug 2026, 14 hours earlier).
 
-## De 5 hints van de auteur (over ~40 latere video descriptions)
+## The Author's 5 Hints (Across ~40 Later Video Descriptions)
 
-1. Laatste woord is een tropische vogel -> parrot (positie 12)
-2. Woord 1 noemt Nederland -> dutch (positie 1)
-3. Woord 5 is gemaakt van gecondenseerde waterdruppels -> fog (positie 5)
-4. Hint 4 video (youtube 03wXiMczCXk, gesproken op 15:26) -> fiber
-5. Hint 5 video (youtube ZjBJKooVmuE, letter voor letter gespeld op 17:28) -> fork
+1. The last word is a tropical bird -> parrot (position 12)
+2. Word 1 refers to the Netherlands -> dutch (position 1)
+3. Word 5 is made of condensed water droplets -> fog (position 5)
+4. Hint 4 video (YouTube 03wXiMczCXk, spoken at 15:26) -> fiber
+5. Hint 5 video (YouTube ZjBJKooVmuE, spelled letter by letter at 17:28) -> fork
 
-## Bevestigde feiten
+## Confirmed Facts
 
-- Positie 1 = dutch
-- Positie 5 = fog (of cloud; laatste commit lost op: fog)
-- Positie 12 = parrot
-- fiber en fork = bevestigde leden, posities onbekend
-- fork zat in archived 2020 blog metadata (article:tag: ethereum fork, round)
-- Tekst van video+blog byte-voor-byte onveranderd sinds 2020 (web archive 2020-05-28)
-- 5 planted sentences statistisch bevestigd (z = 3.71 vs control corpus)
+- Position 1 = dutch
+- Position 5 = fog (or cloud; the latest commit resolves this as fog)
+- Position 12 = parrot
+- fiber and fork = confirmed members, positions unknown
+- fork appeared in archived 2020 blog metadata (article:tag: ethereum fork, round)
+- Video and blog text unchanged byte-for-byte since 2020 (Web Archive 2020-05-28)
+- 5 planted sentences statistically confirmed (z = 3.71 vs control corpus)
 
-## WALLET IS ACTIEF
+## WALLET IS ACTIVE
 
-Guntis heeft 7 outgoing txs gedaan sinds 2021-05 (laatst 2024-06-04, totaal ~1.377 ETH). Hij houdt de private key nog steeds en gebruikt hem periodiek. Dit is GEEN bevroren escrow.
+Guntis made 7 outgoing transactions since 2021-05 (most recently 2024-06-04, ~1.377 ETH total). He still holds the private key and uses it periodically. This is NOT a frozen escrow.
 
-## Wat floflo777 al testte
+## What floflo777 Already Tested
 
-- 16.75 miljard derivations, 8 families, allemaal negatief, witnessed
+- 16.75 billion derivations, 8 families, all negative, witnessed
 - Anchors 1/5/12 + fiber/fork in pool
 
-## OPEN LEADS (nog NOOIT getest - onze kans)
+## OPEN LEADS (NEVER TESTED - Our Opportunity)
 
-1. Connecting words toevoegen aan pool: there, will, also, only, because, like (BIP39: will, only, like) - uren op 1 GPU
-2. Substrings van langere woorden (auteur: possible zit in impossible) - dag op 1 GPU
-3. Video+post metadata opnieuw lezen (blog tags zaten er jaren verborgen) - 1 uur menswerk
+1. Add connecting words to the pool: there, will, also, only, because, like (BIP39: will, only, like) - hours on 1 GPU
+2. Substrings of longer words (author: possible appears in impossible) - one day on 1 GPU
+3. Re-read video and post metadata (blog tags were hidden for years) - 1 hour of human work
 
-## Onze aanvalsplan
+## Our Attack Plan
 
-- Fix posities 1=dutch, 5=fog, 12=parrot
-- Plaats fiber+fork in 2 van 9 vrije slots (72 manieren)
-- Vul 7 slots uit pool: round, cattle, forest, wood, fresh, hunter, lake, goat, sing, song (+ will, only, like)
-- Checksum pre-filter (1/16), dan ETH Keccak derivatie
-- Laptop: ~43M combos -> ~2.7M derivations -> haalbaar met multiprocessing
+- Fix positions 1=dutch, 5=fog, 12=parrot
+- Place fiber+fork in 2 of 9 free slots (72 ways)
+- Fill 7 slots from the pool: round, cattle, forest, wood, fresh, hunter, lake, goat, sing, song (+ will, only, like)
+- Checksum pre-filter (1/16), then ETH Keccak derivation
+- Laptop: ~43M combinations -> ~2.7M derivations -> feasible with multiprocessing
 - Script: scripts/attacks/guntis/guntis_anchored_attack.py

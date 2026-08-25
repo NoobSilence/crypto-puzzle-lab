@@ -1,77 +1,77 @@
 # Research Methodology
 
-De unieke aanpak van NoobSilence voor crypto puzzle research.
+NoobSilence's systematic approach to crypto puzzle research.
 
-## Kernprincipes
+## Core Principles
 
-### 1. Certificering-protocol
-Elke stack wordt eerst gevalideerd tegen bekende test-vectors:
-- embit + coincurve voor BTC/ETH derivatie
-- Keccak-256 voor Ethereum adressen
-- BIP39 checksum verificatie
+### 1. Certification Protocol
+Each stack is first validated against known test vectors:
+- embit + coincurve for BTC/ETH derivation
+- Keccak-256 for Ethereum addresses
+- BIP39 checksum verification
 
-Pas als de certificering slaagt, wordt de stack gebruikt voor echte puzzels.
+The stack is used on real puzzles only after certification succeeds.
 
-### 2. Fail-Fast Filosofie
-- Test kleine samples eerst (10-100 kandidaten)
-- Valideer aannames voor grote runs
-- Documenteer wat NIET werkt even grondig als wat wel werkt
+### 2. Fail-Fast Philosophy
+- Test small samples first (10-100 candidates)
+- Validate assumptions before large runs
+- Document what does NOT work as thoroughly as what does
 
-### 3. Evidence-Based Aanpak
-Elke claim moet onderbouwd worden met:
+### 3. Evidence-Based Approach
+Every claim must be supported by:
 - On-chain data (TXID, block height, timestamp)
-- Reproduceerbare code
-- Cross-gecertificeerde resultaten
+- Reproducible code
+- Cross-certified results
 
 ---
 
-## Ontdekking #1: De Tijdlijn-Paradox (0.2 BTC)
+## Discovery #1: The Timeline Paradox (0.2 BTC)
 
-### De bevinding
-De BNB/BLM collage (0.2 BTC puzzel) bevat een tijdlijn-paradox:
+### Finding
+The BNB/BLM collage (0.2 BTC puzzle) contains a timeline paradox:
 - Funding TX: 10 mei 2020
 - George Floyd overleden: 25 mei 2020 (15 dagen later)
 - Collage gemaakt: Oktober 2020
 
-### De implicatie
-De seed bestond AL voor de image. Dit betekent:
+### Implication
+The seed existed BEFORE the image. This means:
 1. De image is een private bijection (check-step)
 2. De image is geen generative recipe
 3. Brute-force zonder de bijection te kennen is zinloos
 
-### Impact op puzzel-theorie
-Dit is een nieuw inzicht dat 99% van de solvers mist.
-Het herdefinieert hoe we check-step vs generative puzzels moeten benaderen.
+### Impact on Puzzle Theory
+This is a new insight that 99% of solvers miss.
+It redefines how we should approach check-step versus generative puzzles.
 
 ---
 
-## Ontdekking #2: Cross-Puzzle Infrastructuur
+## Discovery #2: Cross-Puzzle Infrastructure
 
-In plaats van per puzzel een nieuwe stack, bouwen we:
+Instead of building a new stack for each puzzle, we are building:
 - Generieke BIP39/44/84 derivation tools
 - Herbruikbare video-analyse scripts (ffmpeg + yt-dlp)
 - Gecertificeerde ETH Keccak stack
 - Community hint aggregators
 
-Dit verhoogt onze snelheid exponentieel over meerdere puzzels.
+This increases our speed exponentially across multiple puzzles.
 
 ---
 
 ## Research Workflow
 
-1. Identificatie: Adres, waarde, type, bron
-2. Data Collection: Alle hints verzamelen (video, blog, community)
-3. Validation: Checksum + certificering
-4. Hypothesis Testing: Kleine samples eerst
-5. Scale or Kill: Opschalen als het werkt, stoppen als het niet werkt
-6. Document: Alles vastleggen in de knowledge base
+1. Identification: Address, value, type, source
+2. Data Collection: Gather all hints (video, blog, community)
+3. Validation: Checksum + certification
+4. Hypothesis Testing: Small samples first
+5. Scale or Kill: Scale up if it works, stop if it does not
+6. Document: Record everything in the knowledge base
 
 ---
 
-## Anti-Patterns (wat we NIET doen)
+## Anti-Patterns (What We Do NOT Do)
 
-- Blindelings community hints volgen zonder verificatie
-- Grote brute-force runs zonder eerst de ruimte te verkleinen
-- Zonder certificering scripts gebruiken
-- Emotioneel investeren in een puzzel
-- Puzzels najagen die onoplosbaar blijken (fail-fast)
+- Follow community hints blindly without verification
+- Run large brute-force searches before reducing the search space
+- Use scripts without certification
+- Become emotionally invested in a puzzle
+- Chase puzzles that prove unsolvable (fail fast)

@@ -1,14 +1,14 @@
-# GPU Methodology - Bewezen Economie
+# GPU Methodology - Proven Economics
 
-Bron: bitcoinwords.github.io/how-i-checked-over-1-trillion-mnemonics + floflo777/engines + oritwoen/kangaroo.
+Sources: bitcoinwords.github.io/how-i-checked-over-1-trillion-mnemonics + floflo777/engines + oritwoen/kangaroo.
 
 ## Case study: 1 triljoen mnemonics, 0.99 BTC gewonnen
 
 - CPU (Rust): 1,250 mnemonics/sec -> 25 jaar voor 2^40
 - GPU (2080Ti, OpenCL): 143,000 mnemonics/sec -> 83 dagen solo
 - Pool van ~80 GPUs (vast.ai + Azure): piek 40 miljard/uur -> 30 uur totaal
-- Kosten: $350 vast.ai + $75 Azure = $425
-- Winst: 0.99 BTC
+- Cost: $350 vast.ai + $75 Azure = $425
+- Winnings: 0.99 BTC
 
 ## OpenCL optimalisaties
 
@@ -22,14 +22,14 @@ Bron: bitcoinwords.github.io/how-i-checked-over-1-trillion-mnemonics + floflo777
 - floflo777/engines: checksum-aware BIP39, brainwallet, Electrum v1, Arweave kernels
 - oritwoen/kangaroo: GPU Pollard Kangaroo voor ECDLP met bekende pubkey
 
-## Kangaroo-aanval
+## Kangaroo Attack
 
-- Voor puzzles met bekende pubkey (BTC tx #135-160): O(sqrt n) ipv O(n)
-- 66-bit puzzle opgelost met rho/kangaroo nadat pubkey bloot kwam
-- Bots stelen soms solutions via mempool watching (RBF fee bump nodig)
+- For puzzles with a known pubkey (BTC tx #135-160): O(sqrt n) instead of O(n)
+- 66-bit puzzle solved with rho/kangaroo after the pubkey was exposed
+- Bots sometimes steal solutions by watching the mempool (RBF fee bump required)
 
-## Toepassing op ons
+## Application to Our Work
 
-- Fase 2: huur 1-2x 2080Ti op vast.ai (~$0.20/uur) voor Guntis connecting-words sweep
-- Gebruik floflo777 engines ipv zelf OpenCL schrijven
-- Certificeer tegen abandon-x11-about vector VOOR elke sweep
+- Phase 2: rent 1-2x 2080Ti on vast.ai (~$0.20/hour) for the Guntis connecting-words sweep
+- Use floflo777 engines instead of writing OpenCL from scratch
+- Certify against the abandon-x11-about vector BEFORE every sweep

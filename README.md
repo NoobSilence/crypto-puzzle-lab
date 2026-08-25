@@ -39,34 +39,20 @@ To methodically document, analyze, and attempt resolution of high-value crypto p
 ## Repository Structure
 
 crypto-puzzle-lab/
-├── README.md # This file
-├── docs/
-│ ├── INTEL_LOG_ADDITIONS_2026-08-24.md # Latest research findings [18]-[30]
-│ ├── GUNTIS_INTEL_LOG_2026-08-24.txt # Guntis puzzle intelligence log
-│ ├── 10ETH_GUNTIS_FULL_ANALYSIS.md # Complete Guntis analysis
-│ ├── BLM_IMAGE_READING.md # BLM image analysis
-│ ├── BLM_TESTED_NEGATIVES.md # BLM negative results ledger
-│ ├── GSMG_FULL_STATUS.md # GSMG status documentation
-│ ├── GSMG_PIPELINE.md # GSMG pipeline documentation
-│ ├── 0.2_BTC_FULL_ANALYSIS.md # 0.2 BTC analysis
-│ ├── COMMUNITY_RESOURCES.md # Community links and references
-│ ├── DEEP_RESEARCH_2026-08-22.md # Deep research session
-│ ├── GPU_METHODOLOGY.md # GPU-based solving methodology
-│ ├── GUNTIS_BREAKTHROUGH.md # Key breakthroughs in Guntis case
-│ ├── HYBRID_PROTOCOL.md # Research rules and protocols
-│ ├── MISTAKES_LOG.md # Error tracking and lessons learned
-│ ├── PUZZLE_INDEX.md # Index of all puzzles
-│ ├── PUZZLE_INDEX_EXPANSION.md # Extended puzzle catalog
-│ ├── RESEARCH_METHODOLOGY.md # Systematic research approach
-│ ├── ROADMAP.md # Future research plans
-│ ├── TECHNICAL_STACK.md # Tools and technologies used
-│ └── add_new_rules.py # Rule management script
-├── scripts/
-│ ├── run6_tiers.py # Tier-S pool execution script (Guntis)
-│ ├── ens_forensics.py # On-chain wallet forensics
-│ ├── hex_decoder.py # Transaction payload hex analysis
-│ └── artifact_hunter.py # ERC-20/NFT artifact analysis
-└── .env # Environment variables (gitignored)
+├── README.md
+├── docs/       # Puzzle analyses, research logs, protocols, and roadmap
+├── scripts/    # Reproducible analysis, verification, and attack scripts
+└── knowledge_base/ # Machine-readable research outputs
+
+Start with these documents:
+
+- [Puzzle index](docs/PUZZLE_INDEX.md) - overview of tracked puzzles and status
+- [Latest intelligence log](docs/INTEL_LOG_ADDITIONS_2026-08-24.md) - findings [18]-[30]
+- [Guntis full analysis](docs/10ETH_GUNTIS_FULL_ANALYSIS.md) - complete ETH puzzle analysis
+- [BLM image analysis](docs/BLM_IMAGE_READING.md) - image-reading results and retractions
+- [GSMG pipeline](docs/GSMG_PIPELINE.md) - documented GSMG solving pipeline
+- [Research methodology](docs/RESEARCH_METHODOLOGY.md) - evidence and validation rules
+- [Hybrid protocol](docs/HYBRID_PROTOCOL.md) - AI/human operating protocol
 
 
 ## Key Findings (Guntis 10 ETH Challenge)
@@ -118,20 +104,25 @@ pip install embit coincurve pycryptodome requests
 
 cd scripts
 python run6_tiers.py
+```
+Expected output includes a witness check before the main search:
 
-Expected output:
+```text
 [WITNESS] planted: ... (2 lines)
 [PROGRESS] X.XM / 287.4M lists (every minute)
 [DONE] tested=... valid=... (after ~3 hours)
 Either !!! HIT !!! or [RESULT] Tier-S negative (witnessed)
+```
 
-On-Chain Forensics
+On-chain forensics scripts:
+
+```bash
 python ens_forensics.py    # Wallet analysis
 python hex_decoder.py      # Transaction payload analysis
-python artifact_hunter.py  # Token/NFT analysis
+python artifact_hunter.py  # Token/NFT artifact analysis
+```
 
-Research Rules
-See HYBRID_PROTOCOL.md for complete rules. Key principles:
+For the complete research rules, see [HYBRID_PROTOCOL.md](docs/HYBRID_PROTOCOL.md). Key principles:
 Rule #13: Hardware strategy (phone vs laptop)
 Rule #14: Pre-execution code validation
 Rule #15: Documentation protocol (English only)
@@ -140,14 +131,15 @@ Rule #19: Evidence labeling (STATED/OBSERVED/INFERRED/UNVERIFIED)
 Rule #20: Witness-before-negative
 Rule #21: Race protocol (instant sweep on hit)
 
-Disclaimer
+## Disclaimer
 
 This repository is for educational and research purposes only. All puzzle solutions are derived through publicly available information and blockchain analysis. No unauthorized access or malicious activity is conducted.
 
-Acknowledgments
+## Acknowledgments
+
 Research conducted in collaboration with AI assistants using systematic fact-checking and evidence labeling protocols.
 
-Last updated: 2026-08-24
+Last updated: 2026-08-25
 
 Status: Active research - Guntis 10 ETH challenge execution pending
 

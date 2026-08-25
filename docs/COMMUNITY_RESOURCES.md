@@ -1,27 +1,27 @@
 # Community Resources
 
-Netwerk van crypto puzzle communities en collaborators.
+Network of crypto puzzle communities and collaborators.
 
 ---
 
 ## Discord Servers
 
 ### Crypto Puzzle Hunters
-- Focus: Algemene crypto puzzels
-- Grootte: ~5,000 members (schatting)
-- Activiteit: Hoog
-- Hoe te joinen: Zoek 'Crypto Puzzle Hunters' op Discord
-- Waarde: Hints, samenwerking, nieuws
+- Focus: General crypto puzzles
+- Size: ~5,000 members (estimated)
+- Activity: High
+- How to join: Search for 'Crypto Puzzle Hunters' on Discord
+- Value: Hints, collaboration, news
 
 ### Bitcoin Puzzle Solvers
-- Focus: Specifiek Bitcoin-puzzels
+- Focus: Bitcoin-specific puzzles
 - Specialiteit: Private key hunting
 - Tools: Vaak gedeelde scripts
 
 ### Keysa Community
-- Focus: Volgende Keysa-puzzels
-- Bron: keysa.io
-- Waarde: Vroege hints bij nieuwe edities
+- Focus: Upcoming Keysa puzzles
+- Source: keysa.io
+- Value: Early hints for new editions
 
 ---
 
@@ -29,12 +29,12 @@ Netwerk van crypto puzzle communities en collaborators.
 
 ### Mineshop EU (Guntis)
 - URL: https://t.me/mineshop_eu
-- Focus: Guntis Vitolins puzzels
-- Waarde: Directe hints van auteur
+- Focus: Guntis Vitolins puzzles
+- Value: Direct hints from the author
 
 ### Crypto Puzzle Chat
-- Type: Algemene puzzle discussie
-- Status: Te verifieren
+- Type: General puzzle discussion
+- Status: To be verified
 
 ---
 
@@ -42,11 +42,11 @@ Netwerk van crypto puzzle communities en collaborators.
 
 ### r/bitcoin
 - Grootte: 6M+ members
-- Gebruik: Zoeken naar puzzle threads
+- Use: Search for puzzle threads
 
 ### r/CryptoCurrency
 - Grootte: 7M+ members
-- Gebruik: Nieuwe puzzels spotten
+- Use: Spot new puzzles
 
 ### r/bitcoinpuzzles (indien actief)
 - Focus: Dedicated puzzle subreddit
@@ -72,7 +72,7 @@ Netwerk van crypto puzzle communities en collaborators.
 
 ### floflo777/open-crypto-puzzles
 - URL: https://github.com/floflo777/open-crypto-puzzles
-- Waarde: Overzicht van open puzzels
+- Value: Overview of open puzzles
 
 ### Individuele solver repos
 - Zoek 'bitcoin puzzle' op GitHub
@@ -102,39 +102,39 @@ Netwerk van crypto puzzle communities en collaborators.
 
 ### Crypto Puzzle Explainers
 - Diverse kanalen met puzzle walkthroughs
-- Waarde: Methodologie leren
+- Value: Learn methodology
 
 ---
 
 ## Community Etiquette
 
 ### DO's:
-- Deel methodologie, niet alleen resultaten
-- Help beginners met certificering
-- Documenteer je onderzoek openbaar
-- Geef credit aan hint-gevers
+- Share methodology, not only results
+- Help beginners with certification
+- Document your research publicly
+- Credit hint providers
 
 ### DON'Ts:
-- Claim andermans werk
-- Spam hints zonder verificatie
-- Vraag direct om seeds
-- Deel privaat ontdekte informatie zonder toestemming
+- Claim other people's work
+- Spam unverified hints
+- Ask directly for seeds
+- Share private information without permission
 
 ---
 
-## Samenwerkingsstrategie
+## Collaboration Strategy
 
-### Fase 1: Observeren (huidig)
-- Join communities, lees eerst 1-2 weken
-- Identificeer key players
-- Leer de cultuur
+### Phase 1: Observe (current)
+- Join communities and read for 1-2 weeks first
+- Identify key players
+- Learn the culture
 
-### Fase 2: Bijdragen
-- Deel je RESEARCH_METHODOLOGY.md
-- Help met certificering van tools
-- Bied aan kleine puzzels te analyseren
+### Phase 2: Contribute
+- Share RESEARCH_METHODOLOGY.md
+- Help certify tools
+- Offer to analyze small puzzles
 
-### Fase 3: Samenwerken
-- Zoek 1-2 trusted collaborators
-- Deel compute resources (jij: methodologie, zij: GPU)
-- Win samen grotere puzzels
+### Phase 3: Collaborate
+- Find 1-2 trusted collaborators
+- Share compute resources (you: methodology, them: GPU)
+- Solve larger puzzles together

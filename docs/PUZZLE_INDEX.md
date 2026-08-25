@@ -1,97 +1,97 @@
 # Crypto Puzzle Index
 
-Overzicht van bekende crypto puzzels met status en waarde.
+Overview of known crypto puzzles with status and value.
 
 ---
 
-## Oplosbare Puzzels (Hoog EV)
+## Solvable Puzzles (High EV)
 
-### 10 ETH Guntis - ACTIEF
-- Adres: 0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF
-- Waarde: ~EUR 25,000
+### 10 ETH Guntis - ACTIVE
+- Address: 0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF
+- Value: ~EUR 25,000
 - Type: ETH BIP44 m/44'/60'/0'/0/0
 - Status: 7 checksum-valid combinaties gevonden, 0 hit
 - Zie: docs/10ETH_GUNTIS_FULL_ANALYSIS.md
 
-### GSMG - WACHTEND
-- Adres: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+### GSMG - PENDING
+- Address: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
 - Type: BTC Bifid + Final Stage
-- Status: Wachtend op Florent's hint
+- Status: Awaiting Florent's hint
 - Zie: docs/GSMG_PIPELINE.md
 
 ---
 
-## Opgeloste Puzzels (Ter Studie)
+## Solved Puzzles (For Study)
 
-### Keysa 100K ETH Puzzle - OPGELOST (2024)
-- Waarde: EUR 100,000
-- Oplosser: Anoniem
-- Duur: ~18 maanden
-- Methode: Combinatie van hints + GPU brute-force
-- Les: GPU-compute is cruciaal voor grote puzzels
+### Keysa 100K ETH Puzzle - SOLVED (2024)
+- Value: EUR 100,000
+- Solver: Anonymous
+- Duration: ~18 months
+- Method: Combination of hints + GPU brute force
+- Lesson: GPU compute is crucial for large puzzles
 
-### Corey Haines 1 BTC Puzzle - OPGELOST
-- Waarde: 1 BTC
-- Methode: Community collaboration
-- Les: Samenwerken loont
+### Corey Haines 1 BTC Puzzle - SOLVED
+- Value: 1 BTC
+- Method: Community collaboration
+- Lesson: Collaboration pays off
 
-### Privy Puzzle - OPGELOST
-- Methode: Specialisatie + 2 jaar onderzoek
-- Les: Diepte > breedte voor sommige puzzels
+### Privy Puzzle - SOLVED
+- Method: Specialization + 2 years of research
+- Lesson: Depth > breadth for some puzzles
 
 ---
 
-## Onoplosbare Puzzels (Geparkeerd)
+## Unsolvable Puzzles (Parked)
 
-### 0.2 BTC BNW/BLM - GEPARKEERD
-- Adres: 1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ
-- Reden: Tijdlijn-paradox (private bijection)
+### 0.2 BTC BNW/BLM - PARKED
+- Address: 1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ
+- Reason: Timeline paradox (private bijection)
 - Zie: docs/0.2_BTC_FULL_ANALYSIS.md
 
 ### Bitcoin Puzzle Transaction (310 BTC)
-- Waarde: 310 BTC (~EUR 20M)
-- Adres: Diverse, zie blockchain
-- Methode: Private keys met patronen (2^1, 2^2, 2^3...)
-- Laatst opgelost: ~2^67
-- Onze kans: Alleen met GPU-farm, niet laptop-only
+- Value: 310 BTC (~EUR 20M)
+- Address: Various, see the blockchain
+- Method: Private keys with patterns (2^1, 2^2, 2^3...)
+- Last solved: ~2^67
+- Our prospects: Only with a GPU farm, not laptop-only
 
 ### Satoshi Quest
-- Type: Community puzzel
-- Status: Onbekend
-- Onderzoek: TODO
+- Type: Community puzzle
+- Status: Unknown
+- Research: TODO
 
 ---
 
-## Nieuwe Puzzels (Te Onderzoeken)
+## New Puzzles (To Investigate)
 
 ### Cicada-style Crypto Puzzles
-- Type: Cryptografische uitdagingen
-- Bron: Diverse
-- Status: Inventarisatie nodig
+- Type: Cryptographic challenges
+- Source: Various
+- Status: Inventory needed
 
 ### Twitter/X Crypto Puzzles
-- Bron: Crypto Twitter accounts
-- Type: Vaak kleinere prijzen (0.01-1 BTC)
-- Kans: Hoog, omdat minder concurrentie
+- Source: Crypto Twitter accounts
+- Type: Often smaller prizes (0.01-1 BTC)
+- Opportunity: High, because there is less competition
 
 ---
 
 ## Puzzle Hunting Platforms
 
-- BitcoinTalk.org - Originele bron van veel puzzels
-- Reddit r/bitcoinpuzzles (als actief)
+- BitcoinTalk.org - Original source for many puzzles
+- Reddit r/bitcoinpuzzles (if active)
 - Discord Crypto Puzzle Hunters
 - GitHub - Open puzzle repos
-- YouTube - Video-based hints (zoals Guntis)
+- YouTube - Video-based hints (such as Guntis)
 
 ---
 
-## Prioriteit Matrix
+## Priority Matrix
 
-| Puzzel | EV | Haalbaarheid | Prioriteit |
+| Puzzle | EV | Feasibility | Priority |
 |--------|-----|--------------|------------|
-| Guntis 10 ETH | EUR 25K | Hoog | 1 |
+| Guntis 10 ETH | EUR 25K | High | 1 |
 | GSMG | Onbekend | Medium | 2 |
-| Twitter kleine puzzels | EUR 100-500 | Hoog | 3 |
-| Keysa (volgende editie) | EUR 100K+ | Laag | 4 |
+| Small Twitter puzzles | EUR 100-500 | High | 3 |
+| Keysa (next edition) | EUR 100K+ | Low | 4 |
 | 310 BTC | EUR 20M | Zeer laag | X |

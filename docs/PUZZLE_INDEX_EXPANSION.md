@@ -1,23 +1,23 @@
-# Puzzle Index - Nieuwe Toevoegingen (22 aug 2026)
+# Puzzle Index - New Additions (22 Aug 2026)
 
-Bron: floflo777/open-crypto-puzzles + boha + btcpuzzle.info.
+Sources: floflo777/open-crypto-puzzles + boha + btcpuzzle.info.
 
-## BIG (nieuw voor ons)
+## BIG (New to Us)
 
 ### Ballet / Bobby Lee: Take Bobby's Bitcoin - 2.00007358 BTC ($126K)
 - Type: BIP38 + physical object
-- Adressen: 1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m, 1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4
-- Lead: foto van ontbrekende kaart-helft nodig (needs-a-person)
+- Addresses: 1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m, 1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4
+- Lead: photo of missing card half needed (needs-a-person)
 
 ### Bitaps Shamir Secret Sharing - 1.00016775 BTC ($63K)
 - Type: shamir 3-of-5 + bip39, BIP84
-- Adres: bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6
-- Lead: 15-dagen archive gap (2020-06-19 tot 2020-07-04) via Wayback/Common Crawl
+- Address: bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6
+- Lead: 15-day archive gap (2020-06-19 to 2020-07-04) via Wayback/Common Crawl
 
 ### Aoi Nakamoto Quizchain - 0.777 BTC ($49K)
 - Type: bip39-seed, word-selection; MD5 entropy -> BIP44
-- Adres: 14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W
-- Lead: 2019 browser-rendering van Wattpad chapter reconstrueren
+- Address: 14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W
+- Lead: reconstruct 2019 browser rendering of Wattpad chapter
 
 ### Peter Todd Hash Collision Bounties - 0.5936 BTC ($37K)
 - Type: hash-collision (SHA-256, RIPEMD160, HASH160, HASH256)
@@ -25,10 +25,10 @@ Bron: floflo777/open-crypto-puzzles + boha + btcpuzzle.info.
 
 ### Commander U - 8.50099081 BTC ($536K)
 - Type: 6 base58 fragmenten -> WIF; pubkey bekend
-- Adres: 1KDUcZh5Z6H1of4Pwoy5ojJtkQxcQBHhnH
-- Status: dead-end mogelijk (originele 2019 channel niet gevonden)
+- Address: 1KDUcZh5Z6H1of4Pwoy5ojJtkQxcQBHhnH
+- Status: possible dead end (original 2019 channel not found)
 
-## MID (nieuw voor ons)
+## MID (New to Us)
 
 - TeikhosBounty (Johan Nygren): 2.000006 ETH, smart-contract timelock
 - Smith Lyle Moore Hunt #2 Glimmer: 0.031777 BTC, password-pages web-tree
@@ -43,22 +43,22 @@ Bron: floflo777/open-crypto-puzzles + boha + btcpuzzle.info.
 - Zden Cryptopuzzle LVL.5: 555K sats, geometry raw-key
 - Andy Bauch New Money COG: 428K sats, pixel-code physical
 
-## HISTORISCH (opgelost, ter studie)
+## HISTORICAL (Solved, for Study)
 
-- 1FLAMEN6 / Legend of Satoshi Nakamoto (coin_artist): 4.87 BTC, opgelost na 3 jaar; XOR 6-bit cipher; painting TORCHED H34R7S
-- Run BITCOIN Run: 14M sats, opgelost; postmortem over puzzle design
+- 1FLAMEN6 / Legend of Satoshi Nakamoto (coin_artist): 4.87 BTC, solved after 3 years; XOR 6-bit cipher; painting TORCHED H34R7S
+- Run BITCOIN Run: 14M sats, solved; postmortem on puzzle design
 - Satoshi's Treasure: $1M globale scavenger hunt (ARG)
-- Phemex Dorian Nakamoto: 1.1 BTC, swept 2020 (niet onopgelost!)
+- Phemex Dorian Nakamoto: 1.1 BTC, swept 2020 (not unsolved!)
 
-## DEAD-ENDS (niet doen)
+## DEAD-ENDS (Do Not Pursue)
 
-- Objective Thune Licorne: 0.21 BTC, keys in 3 van 210 fysieke boeken (unobtainable)
-- ONFO Forsyth 1 BTC: auteur overleden 2023, helft van videos nooit gepubliceerd
-- Aenigma Shards: contract houdt 0 ETH (check balance, niet marketing)
-- Game of Satoshi: custodial (antwoord naar server, geen key)
+- Objective Thune Licorne: 0.21 BTC, keys in 3 of 210 physical books (unobtainable)
+- ONFO Forsyth 1 BTC: author died in 2023, half of videos never published
+- Aenigma Shards: contract holds 0 ETH (check balance, not marketing)
+- Game of Satoshi: custodial (answer goes to a server, no key)
 
-## Lessen uit dead-ends
+## Lessons from Dead-Ends
 
-1. Custodial vs permissionless: als antwoord naar server gaat, is er geen key
-2. Check escrow balance VOOR je begint (swept/unfunded komt vaak voor)
-3. Chain is source of truth, niet persberichten (Phemex was 4 jaar swept)
+1. Custodial vs permissionless: if the answer goes to a server, there is no key
+2. Check escrow balance BEFORE starting (swept/unfunded is common)
+3. The chain is the source of truth, not press releases (Phemex was swept for 4 years)
