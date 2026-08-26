@@ -74,6 +74,13 @@ Network of crypto puzzle communities and collaborators.
 - URL: https://github.com/floflo777/open-crypto-puzzles
 - Value: Overview of open puzzles
 
+### floflo777 / 0xFlorent
+- Profile: https://github.com/floflo777
+- Relevance: Active external researcher and maintainer of open-crypto-puzzles
+- Public focus: On-chain puzzles, wallet recovery research, protocol security, and reproducible technical write-ups
+- Related repositories: [finlow-bates-solutions](https://github.com/floflo777/finlow-bates-solutions), [teikhos-735b](https://github.com/floflo777/teikhos-735b), and [hongcoin-recovery](https://github.com/floflo777/hongcoin-recovery)
+- Evidence label: OBSERVED from the public GitHub profile and repository descriptions; verify technical claims against the linked repositories before relying on them
+
 ### Individuele solver repos
 - Zoek 'bitcoin puzzle' op GitHub
 - Let op: veel repos zijn verouderd
