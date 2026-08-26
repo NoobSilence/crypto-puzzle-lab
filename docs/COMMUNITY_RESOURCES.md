@@ -81,9 +81,14 @@ Network of crypto puzzle communities and collaborators.
 - Related repositories: [finlow-bates-solutions](https://github.com/floflo777/finlow-bates-solutions), [teikhos-735b](https://github.com/floflo777/teikhos-735b), and [hongcoin-recovery](https://github.com/floflo777/hongcoin-recovery)
 - Evidence label: OBSERVED from the public GitHub profile and repository descriptions; verify technical claims against the linked repositories before relying on them
 
-### Individuele solver repos
-- Zoek 'bitcoin puzzle' op GitHub
-- Let op: veel repos zijn verouderd
+### Current Upstream Activity
+- `open-crypto-puzzles` currently has open PR [#13](https://github.com/floflo777/open-crypto-puzzles/pull/13), which reports a witnessed 18.66 billion-candidate Guntis connecting-word sweep with no match.
+- Open PR [#14](https://github.com/floflo777/open-crypto-puzzles/pull/14) reports a separate reading-order model sweep and re-ranks the remaining leads toward video on-screen text and derivation-path checks.
+- Evidence label: OBSERVED from the public pull-request pages; neither PR should be treated as merged until the upstream repository accepts it.
+
+### Individual Solver Repositories
+- Search GitHub for 'bitcoin puzzle'
+- Note that many repositories are outdated
 
 ---
 

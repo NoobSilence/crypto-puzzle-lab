@@ -8,8 +8,11 @@
 ## Status: ACTIVE
 
 The current upstream dossier records a larger external search history than the
-initial local analysis. See [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth)
-for the latest tested ledger and ranked leads.
+initial local analysis. Its merged archive correction resolves position 5 to
+`fog` and drops `cloud`. See [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth)
+for the latest tested ledger and ranked leads. A separate open PR reports an
+additional 18.66 billion-candidate connecting-word sweep; that result is
+pending upstream review.
 
 ## Video
 URL: https://www.youtube.com/watch?v=w4mpiuBP_aY

@@ -13,7 +13,7 @@ Source: floflo777/open-crypto-puzzles/1-big-prizes/guntis-vitolins-metamask-8-6e
 ## Confirmed Facts
 
 - Position 1 = dutch
-- Position 5 = fog or cloud (the upstream dossier does not treat this as settled)
+- Position 5 = fog (upstream archive correction; cloud has no authored occurrence)
 - Position 12 = parrot
 - fiber and fork = confirmed members, positions unknown
 - fork appeared in archived 2020 blog metadata (article:tag: ethereum fork, round)

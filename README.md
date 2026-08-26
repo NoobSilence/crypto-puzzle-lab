@@ -83,7 +83,7 @@ Start with these documents:
 | Position | Word | Source |
 |----------|------|--------|
 | 1 | dutch | Hint 2: Netherlands |
-| 5 | fog or cloud (provisional) | Hint 3: Water droplets |
+| 5 | fog | Hint 3: Water droplets; upstream archive correction |
 | 12 | parrot | Hint 1: Tropical bird |
 | Free | fiber | Hint 4: Plant-based food |
 | Free | fork | Hint 5: Keyboard fork |
@@ -99,7 +99,7 @@ Start with these documents:
 
 ### External Cross-Check (2026-08-26)
 
-The upstream [open-crypto-puzzles Guntis dossier](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth) reports that approximately 16.75 billion candidate derivations have been tested across witnessed sweeps, with no match. It also treats position 5 as `fog` or `cloud` and notes that part of the candidate pool may still be hidden in page metadata. These are external research findings and should be re-verified against the upstream ledger before being treated as final.
+The upstream [open-crypto-puzzles Guntis dossier](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth) reports approximately 16.75 billion candidate derivations tested across witnessed sweeps, with no match. Its merged archive correction resolves position 5 to `fog` and drops `cloud`; an additional open PR proposes a connecting-word sweep of 18.66 billion derivations, also with no match. Treat the PR result as pending upstream review and re-verify the ledger before treating it as final.
 
 ## Methodology
 
