@@ -13,7 +13,7 @@ Source: floflo777/open-crypto-puzzles/1-big-prizes/guntis-vitolins-metamask-8-6e
 ## Confirmed Facts
 
 - Position 1 = dutch
-- Position 5 = fog (or cloud; the latest commit resolves this as fog)
+- Position 5 = fog or cloud (the upstream dossier does not treat this as settled)
 - Position 12 = parrot
 - fiber and fork = confirmed members, positions unknown
 - fork appeared in archived 2020 blog metadata (article:tag: ethereum fork, round)
@@ -26,7 +26,7 @@ Guntis made 7 outgoing transactions since 2021-05 (most recently 2024-06-04, ~1.
 
 ## What floflo777 Already Tested
 
-- 16.75 billion derivations, 8 families, all negative, witnessed
+- 16.75 billion derivations, across 8 families, all negative and witnessed
 - Anchors 1/5/12 + fiber/fork in pool
 
 ## OPEN LEADS (NEVER TESTED - Our Opportunity)

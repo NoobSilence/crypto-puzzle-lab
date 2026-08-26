@@ -33,7 +33,7 @@ graph TD
 - **Target**: `0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF`
 - **Type**: BIP39 seed phrase (12 words) hidden in video + blog post
 - **Status**: Open (puzzle still live as of 2026-08-24)
-- **Our Progress**: Identified 12 high-probability candidates (Tier-S pool), ready for execution
+- **Our Progress**: Three positions and two additional list members are externally confirmed; the complete candidate pool remains open
 
 ### 2. BLM Collage: Welcome to the Brave New World
 - **Prize**: 20,107,284 sats (~$12,668)
@@ -83,12 +83,12 @@ Start with these documents:
 | Position | Word | Source |
 |----------|------|--------|
 | 1 | dutch | Hint 2: Netherlands |
-| 5 | fog | Hint 3: Water droplets |
+| 5 | fog or cloud (provisional) | Hint 3: Water droplets |
 | 12 | parrot | Hint 1: Tropical bird |
 | Free | fiber | Hint 4: Plant-based food |
 | Free | fork | Hint 5: Keyboard fork |
 
-### Tier-S Candidate Pool (12 words)
+### Candidate Pool (current working set)
 `sponsor`, `donor`, `token`, `card`, `link`, `planet`, `board`, `cat`, `ill`, `hen`, `cause`, `use`
 
 ### Critical Technical Facts
@@ -96,6 +96,10 @@ Start with these documents:
 - **Search Space**: ~287.4M candidate lists
 - **Estimated Runtime**: ~3 hours on laptop CPU
 - **Witness Protocol**: 2 planted candidates for validation
+
+### External Cross-Check (2026-08-26)
+
+The upstream [open-crypto-puzzles Guntis dossier](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth) reports that approximately 16.75 billion candidate derivations have been tested across witnessed sweeps, with no match. It also treats position 5 as `fog` or `cloud` and notes that part of the candidate pool may still be hidden in page metadata. These are external research findings and should be re-verified against the upstream ledger before being treated as final.
 
 ## Methodology
 

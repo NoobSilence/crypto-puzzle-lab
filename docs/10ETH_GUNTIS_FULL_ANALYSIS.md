@@ -7,6 +7,10 @@
 
 ## Status: ACTIVE
 
+The current upstream dossier records a larger external search history than the
+initial local analysis. See [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles/tree/main/1-big-prizes/guntis-vitolins-metamask-8-6eth)
+for the latest tested ledger and ranked leads.
+
 ## Video
 URL: https://www.youtube.com/watch?v=w4mpiuBP_aY
 Title: 10 ETH challenge | Ethereum Parabolic | Bitcoin generator portfolio update
@@ -48,7 +52,7 @@ round, dutch, cattle, forest, wood, fiber, hunter, fresh
 ### Test 3: Passphrases
 - 18 passphrases tested, 0 hits
 
-## Checksum-Valid Combinations (7 total)
+## Checksum-Valid Combinations (7 total in this local analysis)
 
 1. round dutch cattle wood fiber fresh fog lake parrot goat fork song
 2. fog lake parrot goat sing song round dutch cattle wood fiber fresh
