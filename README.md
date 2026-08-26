@@ -71,6 +71,7 @@ Start with these documents:
 - [BLM image analysis](docs/BLM_IMAGE_READING.md) - image-reading results and retractions
 - [GSMG pipeline](docs/GSMG_PIPELINE.md) - documented GSMG solving pipeline
 - [Research methodology](docs/RESEARCH_METHODOLOGY.md) - evidence and validation rules
+- [Technical references](docs/TECHNICAL_REFERENCES.md) - official BIP-39 and BIP-44 references
 - [Hybrid protocol](docs/HYBRID_PROTOCOL.md) - AI/human operating protocol
 - [Contributing guide](CONTRIBUTING.md) - collaboration and evidence rules
 - [Security policy](SECURITY.md) - responsible disclosure guidance

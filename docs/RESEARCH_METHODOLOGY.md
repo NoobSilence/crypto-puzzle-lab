@@ -29,15 +29,15 @@ Every claim must be supported by:
 
 ### Finding
 The BNB/BLM collage (0.2 BTC puzzle) contains a timeline paradox:
-- Funding TX: 10 mei 2020
-- George Floyd overleden: 25 mei 2020 (15 dagen later)
-- Collage gemaakt: Oktober 2020
+- Funding TX: 10 May 2020
+- George Floyd died: 25 May 2020 (15 days later)
+- Collage created: October 2020
 
 ### Implication
 The seed existed BEFORE the image. This means:
-1. De image is een private bijection (check-step)
-2. De image is geen generative recipe
-3. Brute-force zonder de bijection te kennen is zinloos
+1. The image is a private bijection (check-step)
+2. The image is not a generative recipe
+3. Brute force without knowing the bijection is pointless
 
 ### Impact on Puzzle Theory
 This is a new insight that 99% of solvers miss.
@@ -48,9 +48,9 @@ It redefines how we should approach check-step versus generative puzzles.
 ## Discovery #2: Cross-Puzzle Infrastructure
 
 Instead of building a new stack for each puzzle, we are building:
-- Generieke BIP39/44/84 derivation tools
-- Herbruikbare video-analyse scripts (ffmpeg + yt-dlp)
-- Gecertificeerde ETH Keccak stack
+- Generic BIP39/44/84 derivation tools
+- Reusable video analysis scripts (ffmpeg + yt-dlp)
+- Certified ETH Keccak stack
 - Community hint aggregators
 
 This increases our speed exponentially across multiple puzzles.
