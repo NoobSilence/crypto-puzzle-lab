@@ -26,13 +26,13 @@ floflo777 has investigated 40 puzzles, solved several, and documents addresses, 
 - github.com/oritwoen/boha (puzzle data + kangaroo GPU solver)
 - github.com/oritwoen/kangaroo (Pollard Kangaroo ECDLP, O(sqrt n))
 - btcpuzzle.info (160-puzzle tracker + pools)
-- privatekeys.pw (21 puzzels, solved keys directory)
+- privatekeys.pw (21 puzzles, solved keys directory)
 
 ## Methodology Lessons from the Field
 
 1. GPU economics proven: 1 trillion mnemonics in 30 hours, $425 cost, 0.99 BTC won (bitcoinwords.github.io)
 2. CPU 1,250/sec vs GPU (2080Ti) 143,000/sec; vast.ai + Azure credits
-3. Checksum-aware BIP39 OpenCL engines zijn open source (floflo777/engines)
+3. Checksum-aware BIP39 OpenCL engines are open source (floflo777/engines)
 4. Kangaroo attack on puzzles with a known pubkey: O(sqrt n) instead of O(n)
 5. Certify oracles against solved siblings BEFORE large sweeps
 6. Metadata (HTML tags, article:tag) can contain hints absent from visible text

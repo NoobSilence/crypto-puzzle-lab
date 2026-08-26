@@ -35,9 +35,9 @@ The BNB/BLM collage (0.2 BTC puzzle) contains a timeline paradox:
 
 ### Implication
 The seed existed BEFORE the image. This means:
-1. The image is a private bijection (check-step)
-2. The image is not a generative recipe
-3. Brute force without knowing the bijection is pointless
+1. The image may encode the seed through a public check-step
+2. The image is not proven to be a private, creator-only mapping
+3. Brute force without a documented image-reading hypothesis is inefficient
 
 ### Impact on Puzzle Theory
 This is a new insight that 99% of solvers miss.

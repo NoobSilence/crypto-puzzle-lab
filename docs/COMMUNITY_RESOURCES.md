@@ -95,7 +95,7 @@ Network of crypto puzzle communities and collaborators.
 ## Twitter/X Accounts
 
 ### Te volgen:
-- @guntis_vitolins (Mineshop, Guntis puzzels)
+- @guntis_vitolins (Mineshop, Guntis puzzles)
 - Crypto puzzle authors (te identificeren)
 - Puzzle announcement accounts
 

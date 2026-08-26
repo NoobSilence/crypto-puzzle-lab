@@ -41,11 +41,11 @@ Overview of known crypto puzzles with status and value.
 
 ---
 
-## Unsolvable Puzzles (Parked)
+## Unsolved or Parked Puzzles
 
-### 0.2 BTC BNW/BLM - PARKED
+### 0.2 BTC BNW/BLM - ACTIVE
 - Address: 1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ
-- Reason: Timeline paradox (private bijection)
+- Reason for earlier parking: Timeline observation was overinterpreted; the puzzle remains open
 - Zie: docs/0.2_BTC_FULL_ANALYSIS.md
 
 ### Bitcoin Puzzle Transaction (310 BTC)

@@ -92,7 +92,7 @@ Actions:
    - Organize puzzle hunts
 
 Success criteria:
-- [ ] EUR 50K+ gewonnen aan puzzels
+- [ ] EUR 50K+ won from puzzles
 - [ ] Erkenning als methodoloog
 - [ ] 10+ collaborations
 
@@ -107,7 +107,7 @@ Success criteria:
 | Oct 2026 | 3 communities active | TODO |
 | Dec 2026 | GPU upgrade | TODO |
 | Feb 2027 | First collaboration win | TODO |
-| Aug 2027 | EUR 50K+ totaal gewonnen | TODO |
+| Aug 2027 | EUR 50K+ won in total | TODO |
 
 ---
 

@@ -2,7 +2,7 @@
 
 Sources: bitcoinwords.github.io/how-i-checked-over-1-trillion-mnemonics + floflo777/engines + oritwoen/kangaroo.
 
-## Case study: 1 triljoen mnemonics, 0.99 BTC gewonnen
+## Case Study: 1 Trillion Mnemonics, 0.99 BTC Won
 
 - CPU (Rust): 1,250 mnemonics/sec -> 25 jaar voor 2^40
 - GPU (2080Ti, OpenCL): 143,000 mnemonics/sec -> 83 dagen solo
