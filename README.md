@@ -51,7 +51,8 @@ graph TD
 ### 🟡 Monitoring: $870K address poisoning
 - **Incident:** Wallet drained via dust-gas attack
 - **Finding:** Funding via Bitfinex (Dec 2024) + Mercuryo (Jun 2025)
-- **Status:** KYC leak identified, waiting for movement; case write-up pending
+- **Status:** KYC leak identified, waiting for movement
+- **Details:** [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md), [cases/address-poisoning-2026.md](cases/address-poisoning-2026.md)
 
 ### 🟡 Monitoring: Whale repeat victim
 - **Incident:** Same wallet hacked twice ($24M in 2023, $25.6M in 2026)
@@ -147,7 +148,7 @@ See [docs/PUZZLE_INDEX.md](docs/PUZZLE_INDEX.md) for the full puzzle list, inclu
 
 - **Oracle manipulation:** [docs/TECHNICAL_REFERENCES.md](docs/TECHNICAL_REFERENCES.md) (BIP-39/BIP-44 references today; a "Price Feed Vulnerabilities" section is planned but not yet written)
 - **Address poisoning:** [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md) - dust-drop activation signature and detection heuristics
-- **KYC attribution:** case write-up planned at `cases/address-poisoning-2026.md` (not yet created)
+- **KYC attribution:** [cases/address-poisoning-2026.md](cases/address-poisoning-2026.md) - funding-chain attribution and dual KYC leak
 
 ## Key Findings (Guntis 10 ETH Challenge)
 

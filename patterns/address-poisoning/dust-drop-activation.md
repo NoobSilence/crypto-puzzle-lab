@@ -82,7 +82,7 @@ The **dust-drop activation variant** uses minimal gas funding (typically <0.1 ET
 - KYC leak potential: INFERRED (subpoena required)
 - Operator identity: UNVERIFIED (requires legal process)
 
-**Full Case:** `cases/address-poisoning-2026.md` (planned, not yet written)
+**Full Case:** [cases/address-poisoning-2026.md](../../cases/address-poisoning-2026.md)
 
 ## Detection Heuristics
 
