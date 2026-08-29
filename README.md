@@ -61,7 +61,10 @@ crypto-puzzle-lab/
 ├── SECURITY.md
 ├── docs/       # Puzzle analyses, research logs, protocols, and roadmap
 ├── scripts/    # Reproducible analysis, verification, and attack scripts
-└── knowledge_base/ # Machine-readable research outputs
+├── knowledge_base/ # Machine-readable research outputs
+├── patterns/   # Documented vulnerability and exploit signature patterns
+├── cases/      # Individual incident write-ups referencing the patterns above
+└── tools/      # Scaffolding for pattern matching and protocol scanning scripts
 
 Start with these documents:
 
@@ -76,6 +79,15 @@ Start with these documents:
 - [Contributing guide](CONTRIBUTING.md) - collaboration and evidence rules
 - [Security policy](SECURITY.md) - responsible disclosure guidance
 
+## Security Pattern Research
+
+Alongside the puzzle-solving research, this repository tracks recurring DeFi and wallet-security exploit patterns, documents individual incidents against those patterns, and scaffolds tooling to spot the same signature before it is exploited again.
+
+- `patterns/` - documented vulnerability classes (for example oracle manipulation, address poisoning, LP reserve manipulation), each with the code or on-chain signature that identifies it
+- `cases/` - dated incident write-ups that reference the matching pattern; entries are labeled with their verification status and should be cross-checked on-chain before being treated as confirmed
+- `tools/` - Python scaffolding for automated pattern matching, pre-emptive protocol scanning, and cross-chain fund tracking; these are early scaffolds and are not yet wired to live data sources
+
+See [patterns/oracle-manipulation/spot-price-vulnerability.md](patterns/oracle-manipulation/spot-price-vulnerability.md) and [cases/moonwell-2026-08.md](cases/moonwell-2026-08.md) for the current example.
 
 ## Key Findings (Guntis 10 ETH Challenge)
 
@@ -168,7 +180,7 @@ This repository is for educational and research purposes only. All puzzle soluti
 
 Research conducted in collaboration with AI assistants using systematic fact-checking and evidence labeling protocols.
 
-Last updated: 2026-08-25
+Last updated: 2026-08-29
 
 Status: Active research - Guntis 10 ETH challenge execution pending
 
