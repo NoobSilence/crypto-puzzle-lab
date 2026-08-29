@@ -2,17 +2,22 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# Crypto Puzzle Lab
+# crypto-puzzle-lab
 
-A systematic research lab for analyzing and solving complex cryptocurrency puzzles using blockchain forensics, OSINT, and semantic anomaly detection.
+Forensic on-chain research · Security pattern detection · Bounty hunting
 
-## Mission
+**Last updated:** August 29, 2026
 
-To methodically document, analyze, and attempt resolution of high-value crypto puzzles through:
-- **On-chain forensics**: wallet analysis, transaction tracing, artifact examination
-- **Semantic analysis**: identifying planted words and hidden patterns in puzzle sources
-- **BIP39 wordlist matching**: cross-referencing puzzle text against the 2048-word seed phrase list
-- **Community intelligence**: tracking solver progress and author communications
+## About this lab
+
+This is a forensic research lab focused on:
+- **Crypto puzzle solving** (BLM, Guntis, etc.)
+- **Security pattern detection** (oracle manipulation, address poisoning, rug pulls)
+- **Cross-chain wallet tracking**
+- **KYC-leak attribution** via funding chain analysis
+- **Bounty hunting** for white-hat disclosure
+
+We track the wallets, not the narratives.
 
 ## Operating Loop
 
@@ -28,29 +33,29 @@ graph TD
 
 ## Active Investigations
 
-### 1. Guntis Vitolins: 10 ETH Challenge (Primary Focus)
-- **Challenge**: 10 ETH; current wallet balance: 8.61 ETH (~$21,052)
-- **Target**: `0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF`
-- **Type**: BIP39 seed phrase (12 words) hidden in video + blog post
-- **Status**: Open (puzzle still live as of 2026-08-24)
-- **Our Progress**: Three positions and two additional list members are externally confirmed; the complete candidate pool remains open
+### 🔴 Active: $GOLD rug pull (Aug 29, 2026)
+- **Incident:** 224.5M $GOLD dumped for 3,178 SOL ($330K)
+- **Finding:** Two KYC leaks identified
+  - Creator wallet funded by KuCoin Hot Wallet
+  - 15 cluster wallets funded by Binance-labeled wallet (00:17 UTC)
+- **Status:** Monitoring exit wallet H6BHT5...HWEZ (2,316 SOL)
+- **Action:** Published T1-T6 thread with sniper replies under Lookonchain
 
-### 2. BLM Collage: Welcome to the Brave New World
-- **Prize**: 20,107,284 sats (~$12,668)
-- **Type**: Image steganography, word selection, BIP39 seed, text cipher
-- **Status**: Open
-- **Our Progress**: Foothold established via issue #12 in floflo777's repo
+### 🔴 Active: Moonwell oracle exploit (Aug 27, 2026)
+- **Incident:** $8.7M loss via spot-price manipulation
+- **Finding:** Same pattern as 2 previous Base exploits
+- **Status:** Pattern signature documented, hunting next target
+- **Details:** [patterns/oracle-manipulation/spot-price-vulnerability.md](patterns/oracle-manipulation/spot-price-vulnerability.md), [cases/moonwell-2026-08.md](cases/moonwell-2026-08.md)
 
-### 3. GSMG.io 5 BTC Puzzle
-- **Prize**: Originally 5 BTC (now reportedly reduced to 1.5 BTC)
-- **Type**: Text cipher, pixel code, web tree, raw private key
-- **Status**: Open (degraded to speculative)
-- **Our Progress**: Pipeline documented
+### 🟡 Monitoring: $870K address poisoning
+- **Incident:** Wallet drained via dust-gas attack
+- **Finding:** Funding via Bitfinex (Dec 2024) + Mercuryo (Jun 2025)
+- **Status:** KYC leak identified, waiting for movement; case write-up pending
 
-### 4. 0.2 BTC Full Analysis
-- **Prize**: 0.2 BTC
-- **Type**: Multi-stage cryptographic challenge
-- **Status**: Documented
+### 🟡 Monitoring: Whale repeat victim
+- **Incident:** Same wallet hacked twice ($24M in 2023, $25.6M in 2026)
+- **Finding:** Non-freezable DAI exit pattern
+- **Status:** Business model documented; case write-up pending
 
 ## Repository Structure
 
@@ -79,15 +84,69 @@ Start with these documents:
 - [Contributing guide](CONTRIBUTING.md) - collaboration and evidence rules
 - [Security policy](SECURITY.md) - responsible disclosure guidance
 
-## Security Pattern Research
+## Tools
 
-Alongside the puzzle-solving research, this repository tracks recurring DeFi and wallet-security exploit patterns, documents individual incidents against those patterns, and scaffolds tooling to spot the same signature before it is exploited again.
+### [pattern-matcher.py](tools/pattern-matcher.py)
+Match known attack signatures against new on-chain activity. Output: probable pattern + confidence score.
 
-- `patterns/` - documented vulnerability classes (for example oracle manipulation, address poisoning, LP reserve manipulation), each with the code or on-chain signature that identifies it
-- `cases/` - dated incident write-ups that reference the matching pattern; entries are labeled with their verification status and should be cross-checked on-chain before being treated as confirmed
-- `tools/` - Python scaffolding for automated pattern matching, pre-emptive protocol scanning, and cross-chain fund tracking; these are early scaffolds and are not yet wired to live data sources
+### [pattern_detector.py](tools/pattern_detector.py)
+Analyze funding chains to identify cluster wallets. Detects:
+- Identical dust drops (±0.055 SOL)
+- Shared activation wallets
+- Supply control percentages
 
-See [patterns/oracle-manipulation/spot-price-vulnerability.md](patterns/oracle-manipulation/spot-price-vulnerability.md) and [cases/moonwell-2026-08.md](cases/moonwell-2026-08.md) for the current example.
+### [cross_chain_tracker.py](tools/cross_chain_tracker.py)
+Trace wallet movements across multiple chains (ETH, BSC, Solana, Base). Identifies:
+- Bridge hops
+- CEX deposits
+- Mixer interactions
+
+### [pre-emptive-hunter.py](tools/pre-emptive-hunter.py)
+Predict next target based on:
+- Recent pattern matches
+- Liquidity concentration
+- Time since last attack
+
+### [bounty_hunter.py](tools/bounty_hunter.py)
+Scan protocol repositories for:
+- White-hat bounty programs
+- Open security issues
+- Undisclosed vulnerability reports
+
+All five tools above are early scaffolds: the core logic is defined, but they are not yet wired to live blockchain data sources.
+
+## Evidence Labeling Protocol (Security Cases)
+
+All claims in `cases/` and `patterns/` are labeled:
+
+- **OBSERVED** - Direct from blockchain data (Etherscan, Solscan, RPC)
+- **INFERRED** - Logically derived with high confidence
+- **UNVERIFIED** - Claim that needs confirmation
+- **DISPROVEN** - Falsified by counter-evidence
+
+This extends the puzzle-research evidence rules in [docs/RESEARCH_METHODOLOGY.md](docs/RESEARCH_METHODOLOGY.md); a dedicated `docs/methodology.md` for security cases is planned but not yet written.
+
+## Active Crypto Puzzles
+
+### BLM Collage (Welcome to the Brave New World)
+- **Status:** Investigation active
+- **Progress:** 60%
+- **Focus:** Cross-chain exit tracing
+- **Details:** [docs/BLM_IMAGE_READING.md](docs/BLM_IMAGE_READING.md), [docs/0.2_BTC_FULL_ANALYSIS.md](docs/0.2_BTC_FULL_ANALYSIS.md)
+
+### Guntis puzzle
+- **Status:** Waiting for new hint
+- **Progress:** 40%
+- **Focus:** Smart contract reverse engineering
+- **Details:** [docs/10ETH_GUNTIS_FULL_ANALYSIS.md](docs/10ETH_GUNTIS_FULL_ANALYSIS.md)
+
+See [docs/PUZZLE_INDEX.md](docs/PUZZLE_INDEX.md) for the full puzzle list, including GSMG.io and the 0.2 BTC analysis.
+
+## Technical References
+
+- **Oracle manipulation:** [docs/TECHNICAL_REFERENCES.md](docs/TECHNICAL_REFERENCES.md) (BIP-39/BIP-44 references today; a "Price Feed Vulnerabilities" section is planned but not yet written)
+- **Address poisoning:** pattern write-up planned at `patterns/address-poisoning/dust-drop-activation.md` (not yet created)
+- **KYC attribution:** case write-up planned at `cases/address-poisoning-2026.md` (not yet created)
 
 ## Key Findings (Guntis 10 ETH Challenge)
 
@@ -174,15 +233,19 @@ Rule #21: Race protocol (instant sweep on hit)
 
 ## Disclaimer
 
-This repository is for educational and research purposes only. All puzzle solutions are derived through publicly available information and blockchain analysis. No unauthorized access or malicious activity is conducted.
+This repository is for educational and research purposes only. Puzzle solutions and security-pattern findings are derived from publicly available information and blockchain analysis. No unauthorized access or malicious activity is conducted.
 
 ## Acknowledgments
 
 Research conducted in collaboration with AI assistants using systematic fact-checking and evidence labeling protocols.
 
-Last updated: 2026-08-29
+## Contact
 
-Status: Active research - Guntis 10 ETH challenge execution pending
+**X:** [@sprunky_eth](https://x.com/sprunky_eth)
+
+## License
+
+This repository is licensed under [MIT](LICENSE). Tools and research here are for research and responsible-disclosure purposes only; do not use them for malicious purposes.
 
 
 
