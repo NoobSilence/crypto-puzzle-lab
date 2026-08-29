@@ -116,7 +116,7 @@ Regulated On-Ramp #1 (KYC)          Regulated On-Ramp #2 (KYC)
 
 **Launchpad check:** not Pump.fun - no "pump" suffix, Token Extensions False, mint authority retained. (An earlier claim of a Pump.fun launch is DISPROVEN.)
 
-**Full case file:** `cases/gold-rug-2026-08.md` (in progress, same session; not yet written)
+**Full case file:** [cases/gold-rug-2026-08.md](../../cases/gold-rug-2026-08.md)
 
 ## Detection Heuristics
 

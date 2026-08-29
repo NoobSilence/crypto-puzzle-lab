@@ -40,7 +40,7 @@ graph TD
   - 15 cluster wallets funded by Binance-labeled wallet (00:17 UTC)
 - **Status:** Monitoring exit wallet H6BHT5...HWEZ (2,316 SOL)
 - **Action:** Published T1-T6 thread with sniper replies under Lookonchain
-- **Details:** [patterns/rug-pull/supply-control-signature.md](patterns/rug-pull/supply-control-signature.md)
+- **Details:** [patterns/rug-pull/supply-control-signature.md](patterns/rug-pull/supply-control-signature.md), [cases/gold-rug-2026-08.md](cases/gold-rug-2026-08.md)
 
 ### 🔴 Active: Moonwell oracle exploit (Aug 27, 2026)
 - **Incident:** $8.7M loss via spot-price manipulation
