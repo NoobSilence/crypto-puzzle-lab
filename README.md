@@ -40,7 +40,7 @@ graph TD
   - 15 cluster wallets funded by Binance-labeled wallet (00:17 UTC)
 - **Status:** Monitoring exit wallet H6BHT5...HWEZ (2,316 SOL)
 - **Action:** Published T1-T6 thread with sniper replies under Lookonchain
-- **Details:** [patterns/rug-pull/supply-control-signature.md](patterns/rug-pull/supply-control-signature.md), [cases/gold-rug-2026-08.md](cases/gold-rug-2026-08.md)
+- **Details:** [cases/gold-rug-2026-08.md](cases/gold-rug-2026-08.md), [patterns/rug-pull/supply-control-signature.md](patterns/rug-pull/supply-control-signature.md)
 
 ### 🔴 Active: Moonwell oracle exploit (Aug 27, 2026)
 - **Incident:** $8.7M loss via spot-price manipulation
@@ -52,7 +52,7 @@ graph TD
 - **Incident:** Wallet drained via dust-gas attack
 - **Finding:** Funding via Bitfinex (Dec 2024) + Mercuryo (Jun 2025)
 - **Status:** KYC leak identified, waiting for movement
-- **Details:** [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md), [cases/address-poisoning-2026.md](cases/address-poisoning-2026.md)
+- **Details:** [cases/address-poisoning-2026.md](cases/address-poisoning-2026.md), [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md)
 
 ### 🟡 Monitoring: Whale repeat victim
 - **Incident:** Same wallet hacked twice ($24M in 2023, $25.6M in 2026)
@@ -67,10 +67,17 @@ crypto-puzzle-lab/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── docs/       # Puzzle analyses, research logs, protocols, and roadmap
+│   └── methodology.md              # Security research methodology & evidence rules
 ├── scripts/    # Reproducible analysis, verification, and attack scripts
 ├── knowledge_base/ # Machine-readable research outputs
 ├── patterns/   # Documented vulnerability and exploit signature patterns
+│   ├── oracle-manipulation/spot-price-vulnerability.md
+│   ├── address-poisoning/dust-drop-activation.md
+│   └── rug-pull/supply-control-signature.md
 ├── cases/      # Individual incident write-ups referencing the patterns above
+│   ├── moonwell-2026-08.md
+│   ├── gold-rug-2026-08.md
+│   └── address-poisoning-2026.md
 └── tools/      # Scaffolding for pattern matching and protocol scanning scripts
 
 Start with these documents:
@@ -81,6 +88,7 @@ Start with these documents:
 - [BLM image analysis](docs/BLM_IMAGE_READING.md) - image-reading results and retractions
 - [GSMG pipeline](docs/GSMG_PIPELINE.md) - documented GSMG solving pipeline
 - [Research methodology](docs/RESEARCH_METHODOLOGY.md) - evidence and validation rules
+- [Security research methodology](docs/methodology.md) - evidence rules and investigation workflow for security cases
 - [Technical references](docs/TECHNICAL_REFERENCES.md) - official BIP-39 and BIP-44 references
 - [Hybrid protocol](docs/HYBRID_PROTOCOL.md) - AI/human operating protocol
 - [Contributing guide](CONTRIBUTING.md) - collaboration and evidence rules
