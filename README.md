@@ -154,7 +154,7 @@ See [docs/PUZZLE_INDEX.md](docs/PUZZLE_INDEX.md) for the full puzzle list, inclu
 
 ## Technical References
 
-- **Oracle manipulation:** [docs/TECHNICAL_REFERENCES.md](docs/TECHNICAL_REFERENCES.md) (BIP-39/BIP-44 references today; a "Price Feed Vulnerabilities" section is planned but not yet written)
+- **Oracle manipulation:** [docs/TECHNICAL_REFERENCES.md](docs/TECHNICAL_REFERENCES.md#price-feed-vulnerabilities) - see the "Price Feed Vulnerabilities" section
 - **Address poisoning:** [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md) - dust-drop activation signature and detection heuristics
 - **KYC attribution:** [cases/address-poisoning-2026.md](cases/address-poisoning-2026.md) - funding-chain attribution and dual KYC leak
 
