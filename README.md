@@ -16,6 +16,7 @@ This is a forensic research lab focused on:
 - **Cross-chain wallet tracking**
 - **KYC-leak attribution** via funding chain analysis
 - **Bounty hunting** for white-hat disclosure
+- **Live RPC forensics** via Solana/Ethereum mainnet JSON-RPC (snapshot-accurate data)
 
 We track the wallets, not the narratives.
 
@@ -96,6 +97,26 @@ Start with these documents:
 
 ## Tools
 
+### Working tools
+
+#### [movie_enigma_combo_generator.py](scripts/movie_enigma_combo_generator.py)
+Generate order-preserving 24-word subsets from a 34-word list, filtered by BIP39 checksum validity. Tested: filters non-BIP39 words (goon/shark), computes ~41K valid candidates from ~10.5M combinations.
+
+**Usage:**
+```bash
+python scripts/movie_enigma_combo_generator.py [words_file] [-o candidates.txt]
+```
+
+#### [make_pdf_report.py](scripts/make_pdf_report.py)
+Dependency-free minimal PDF writer for audit reports. Tested: produces valid `%PDF-1.4` output.
+
+**Usage:**
+```bash
+python scripts/make_pdf_report.py [input.txt] [-o report.pdf]
+```
+
+### Scaffold tools (not yet wired to live data)
+
 ### [pattern-matcher.py](tools/pattern-matcher.py)
 Match known attack signatures against new on-chain activity. Output: probable pattern + confidence score.
 
@@ -123,7 +144,7 @@ Scan protocol repositories for:
 - Open security issues
 - Undisclosed vulnerability reports
 
-All five tools above are early scaffolds: the core logic is defined, but they are not yet wired to live blockchain data sources.
+All five scaffold tools above are early scaffolds: the core logic is defined, but they are not yet wired to live blockchain data sources.
 
 ## Evidence Labeling Protocol (Security Cases)
 
@@ -135,6 +156,23 @@ All claims in `cases/` and `patterns/` are labeled:
 - **DISPROVEN** - Falsified by counter-evidence
 
 This extends the puzzle-research evidence rules in [docs/RESEARCH_METHODOLOGY.md](docs/RESEARCH_METHODOLOGY.md). The dedicated security-case protocol, workflow, and ethical guidelines live in [docs/methodology.md](docs/methodology.md).
+
+## Operational Capabilities
+
+### Live monitoring
+- Cielo Finance alerts on 4 critical wallets ($GOLD cluster)
+- Real-time movement triggers -> T7-update published within minutes
+
+### Distributed intelligence
+- AI drafts threads, scripts, and forensic reports
+- Human executes on-chain queries, posts, and commits
+- AI analyzes results and iterates
+- Output: documented in knowledge_base/ or published on X
+
+### Sniper-reply playbook
+- Targeted forensic replies under Tier-1 investigators (Lookonchain, PeckShieldAlert, ZachXBT)
+- Peer-to-peer engagement; never DM-pressure
+- Value-first: actionable intelligence, not promotion
 
 ## Active Crypto Puzzles
 
@@ -149,6 +187,12 @@ This extends the puzzle-research evidence rules in [docs/RESEARCH_METHODOLOGY.md
 - **Progress:** 40%
 - **Focus:** Smart contract reverse engineering
 - **Details:** [docs/10ETH_GUNTIS_FULL_ANALYSIS.md](docs/10ETH_GUNTIS_FULL_ANALYSIS.md)
+
+### Bitcoin Movie Enigma
+- **Status:** Run 1 pending
+- **Progress:** 15%
+- **Focus:** 34-still -> 24-word BIP39 seed puzzle; list audit complete (goon/shark errors)
+- **Details:** [docs/BITCOIN_MOVIE_ENIGMA.md](docs/BITCOIN_MOVIE_ENIGMA.md)
 
 See [docs/PUZZLE_INDEX.md](docs/PUZZLE_INDEX.md) for the full puzzle list, including GSMG.io and the 0.2 BTC analysis.
 
