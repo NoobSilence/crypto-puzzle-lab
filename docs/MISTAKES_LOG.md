@@ -38,6 +38,34 @@ This document records failed attempts to prevent repetition. Consult before sugg
 - **Fix:** ALWAYS cross-check vision output with unbiased prompt that doesn't suggest expected content.
 - **Rule:** Never trust vision output without independent verification.
 
+## Session 2026-08-29 - Security research day
+
+### M-D13: Sniper reply linked to the wrong thread
+- **What happened:** Announced a sniper reply with the $870K thread link before the $GOLD thread existed.
+- **Fix:** Publish the relevant thread first, verify it, then reply with the real link.
+
+### M-D14: Fabricated puzzle name
+- **What happened:** Used "Black Lotus Mystery" for the BLM collage puzzle without checking existing docs.
+- **Reality:** The verified name is "BLM Collage (Welcome to the Brave New World)", per `docs/BLM_IMAGE_READING.md`.
+- **Fix:** Verify puzzle names against existing docs before using them in new material.
+
+### M-D15: README referenced files that did not exist
+- **What happened:** Drafted README sections linking to case/pattern files before those files were created (dead links).
+- **Fix:** Mark not-yet-created files as "planned" in prose (no link syntax) and only add a real link once the file exists.
+
+### M-D16: Premature anchor link
+- **What happened:** Proposed a README link to `docs/TECHNICAL_REFERENCES.md#price-feed-vulnerabilities` before that section existed.
+- **Fix:** The link was correctly withheld until the target section was created; then linked.
+
+### M-D17: Imprecise characterization of a documentation gap
+- **What happened:** A gap-analysis draft described `scripts/run6_tiers.py` on GitHub as "single-thread v3.1" without checking the live file.
+- **Reality (verified via marker check):** The live file already uses `multiprocessing`, so "single-thread" was wrong. However, all six specific v4 markers checked for (`HIT_MNEMONIC.txt`, `FLUSH_EVERY = 50000`, `EXPECTED_WITNESS`, `min(mp.cpu_count(), 4)`, `def build_tasks`, `def witness_test`) were genuinely absent, so the underlying gap (missing v4 features) was real.
+- **Fix:** State documentation gaps precisely (which named features/markers are missing), not with an inaccurate blanket label like "single-thread".
+
+### M-D18: Reconstructed crypto script committed without full derivation verification would have shipped a broken self-test
+- **What happened:** A reconstructed `movie_enigma_master_checker.py` was drafted with a hardcoded BIP84 test-vector address. Running its own self-test failed; an independent cross-check with the already-certified `embit` library reproduced a third, different address, confirming a real bug in the custom BIP32/bech32 implementation rather than an environment issue.
+- **Fix:** The script was not committed. Any custom from-scratch key-derivation code must pass its own self-test against a trusted, independent implementation before being added to the repository.
+
 ### M7: Voting logic counted mentions not agents (2026-08-23)
 - **What happened:** mission_vision_voting.py reported "MOON: CONFIRMED (3/3)" but only Gemini mentioned MOON.
 - **Root cause:** Code counted keyword mentions per line, not distinct agents making the claim.
