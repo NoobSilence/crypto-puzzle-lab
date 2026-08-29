@@ -124,7 +124,7 @@ All claims in `cases/` and `patterns/` are labeled:
 - **UNVERIFIED** - Claim that needs confirmation
 - **DISPROVEN** - Falsified by counter-evidence
 
-This extends the puzzle-research evidence rules in [docs/RESEARCH_METHODOLOGY.md](docs/RESEARCH_METHODOLOGY.md); a dedicated `docs/methodology.md` for security cases is planned but not yet written.
+This extends the puzzle-research evidence rules in [docs/RESEARCH_METHODOLOGY.md](docs/RESEARCH_METHODOLOGY.md). The dedicated security-case protocol, workflow, and ethical guidelines live in [docs/methodology.md](docs/methodology.md).
 
 ## Active Crypto Puzzles
 
@@ -145,7 +145,7 @@ See [docs/PUZZLE_INDEX.md](docs/PUZZLE_INDEX.md) for the full puzzle list, inclu
 ## Technical References
 
 - **Oracle manipulation:** [docs/TECHNICAL_REFERENCES.md](docs/TECHNICAL_REFERENCES.md) (BIP-39/BIP-44 references today; a "Price Feed Vulnerabilities" section is planned but not yet written)
-- **Address poisoning:** pattern write-up planned at `patterns/address-poisoning/dust-drop-activation.md` (not yet created)
+- **Address poisoning:** [patterns/address-poisoning/dust-drop-activation.md](patterns/address-poisoning/dust-drop-activation.md) - dust-drop activation signature and detection heuristics
 - **KYC attribution:** case write-up planned at `cases/address-poisoning-2026.md` (not yet created)
 
 ## Key Findings (Guntis 10 ETH Challenge)
